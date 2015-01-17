@@ -90,55 +90,32 @@ def testname(foo):
         print x
     Beep(3000, 250)
 
-def run_row(i):
+def run_rules(rules):
     global words
-    with open(os.path.join(row, row + '_col' + str(i) + '.txt'), 'r') as f:
-        rules = f.read().splitlines()
     wordlist = words
-    deferred_rules = []
+    rules.sort(key=lambda x: len(x))
     for rule in rules:
-        if ': ' not in rule:
-            continue
-        if 'overlap' in rule:
-            deferred_rules.append(rule)
-            continue
-        key, value = rule.split(': ')
-        key = key.lower()
-        if key not in FILTERS:
-            continue
-        wordlist = FILTERS[key](wordlist, value)
-    for rule in deferred_rules:
-        key, value = rule.split(': ')
+        rule = rule.split(': ')
+        if len(rule) == 1:
+            key, value = rule[0], ''
+        else:
+            key, value = rule
         key = key.lower()
         if key not in FILTERS:
             continue
         wordlist = FILTERS[key](wordlist, value)
     return wordlist
 
-def check_cell(row, col):
-    global words
-    with open(os.path.join('row'+str(row), 'row'+str(row)+'_col'+str(col)+'.txt'), 'r') as f:
+def run_rules_from_file(dirname, filename):
+    with open(os.path.join(dirname, filename), 'r') as f:
         rules = f.read().splitlines()
-    wordlist = words
-    deferred_rules = []
-    for rule in rules:
-        if ': ' not in rule:
-            continue
-        if 'overlap' in rule:
-            deferred_rules.append(rule)
-            continue
-        key, value = rule.split(': ')
-        key = key.lower()
-        if key not in FILTERS:
-            continue
-        wordlist = FILTERS[key](wordlist, value)
-    for rule in deferred_rules:
-        key, value = rule.split(': ')
-        key = key.lower()
-        if key not in FILTERS:
-            continue
-        wordlist = FILTERS[key](wordlist, value)
-    return wordlist
+    return run_rules(rules)
+
+def run_row(i):
+    return run_rules_from_file(row, row + '_col' + str(i) + '.txt')
+
+def check_cell(row, col):
+    return run_rules_from_file('row'+str(row), 'row'+str(row)+'_col'+str(col)+'.txt')
 
 def check_rule(wordlist, rule):
     if ': ' not in rule:
