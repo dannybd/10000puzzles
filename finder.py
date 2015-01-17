@@ -16,29 +16,29 @@ from asuhl import *
 from sha1filter import *
 from marked import *
 
-def run_row(i, verbose=False):
-    global words, row_files
-    if verbose:
-        print row + '_col' + str(i) + '.txt'
+def run_row(i):
+    global words
     with open(os.path.join(row, row + '_col' + str(i) + '.txt'), 'r') as f:
         rules = f.read().splitlines()
     wordlist = words
+    deferred_rules = []
     for rule in rules:
         if ': ' not in rule:
             continue
+        if 'overlap' in rule:
+            deferred_rules.append(rule)
+            continue
         key, value = rule.split(': ')
         key = key.lower()
-        if verbose:
-            print key, value
         if key not in FILTERS:
             continue
-        if verbose:
-            print key, 'in FILTERS'
         wordlist = FILTERS[key](wordlist, value)
-        if verbose:
-            print 'wordlist is now', len(wordlist), 'long'
-    if verbose:
-        print wordlist
+    for rule in deferred_rules:
+        key, value = rule.split(': ')
+        key = key.lower()
+        if key not in FILTERS:
+            continue
+        wordlist = FILTERS[key](wordlist, value)
     return wordlist
 
 def check_rule(wordlist, rule):
