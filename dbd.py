@@ -14,6 +14,11 @@ def filter_starts_with(wordlist, value):
 def filter_ends_with(wordlist, value):
     return filter(lambda x: x.endswith(value), wordlist)
 
+@prefix('Starts with a vowel')
+def filter_starts_with_a_vowel(wordlist, value):
+    boolean = (value == 'YES')
+    return filter(lambda x: (x[0] in 'AEIOU') == boolean, wordlist)
+
 @prefix('Base Scrabble score')
 def filter_by_scrabble_score(wordlist, value):
     def scrabble_score(word):
