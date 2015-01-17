@@ -59,7 +59,7 @@ def _markMost(w, subs, memo=_markMostMemo):
     subs = _subsInWord(w, subs)
     key = ':'.join(map(str, (w, subs)))
     if key not in memo:
-        memo[key] = max([len(x)+_markMost(w.replace(x, '-'), subs) for x in subs]) if subs else 0
+        memo[key] = max([_markMost(w.replace(x, '-'*len(x)), subs) for x in subs]) if subs else w.count('-')
     return memo[key]
 
 def _filter_marked(words, x, s):
