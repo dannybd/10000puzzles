@@ -1,8 +1,10 @@
 from decorators import prefix
 import re
 
+consonants = "BCDFGHJKLMNPQRSTVWXYZ"
+vowels = "AEIOU"
 def distinct_constants_in_word(word):
-	return len(set(filter(lambda x : x in "BCDFGHJKLMNPQRSTVWXYZ", word)))
+	return len(set(filter(lambda x : x in consonants, word)))
 	
 def get_bounds_from_regexp(regexp, rest):
 	bounds = re.findall(regexp, rest)
@@ -42,6 +44,21 @@ def handle_top_qwerty(wordlist, rest):
 
 @prefix("Vowels")
 def handle_vowels(wordlist, rest):
-	return handle_something_with_possible_range(lambda word : letters_of_set_in_word(word,"AEIOU"), wordlist, rest)
+	return handle_something_with_possible_range(lambda word : letters_of_set_in_word(word,vowels), wordlist, rest)
 
+def mostcommon(word):
+	return max([0] + [word.count(letter) for letter in word])
 
+@prefix("Most common consonant(s) each account(s) for")
+@prefix("Most common consonant(s) each appear(s)")
+def handle_most_common_consonants(wordlist, rest):
+	return handle_something_with_possible_range(
+		lambda word : mostcommon(filter(lambda x : x in consonants, word)),
+		wordlist, rest)
+
+@prefix("Most common vowel(s) each account(s) for")
+@prefix("Most common vowel(s) each appear(s)")
+def handle_most_common_vowels(wordlist, rest):
+	return handle_something_with_possible_range(
+		lambda word : mostcommon(filter(lambda x : x in vowels, word)),
+		wordlist, rest)
