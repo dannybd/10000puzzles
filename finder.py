@@ -12,6 +12,7 @@ filters = dict()
 
 from decorators import *
 from dbd import *
+from asuhl import *
 from sha1filter import *
 
 def run_row(i):
