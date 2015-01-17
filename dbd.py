@@ -6,6 +6,14 @@ import re
 def filter_contains(wordlist, contains):
     return filter(lambda x: contains in x, wordlist)
 
+@prefix('Starts with')
+def filter_starts_with(wordlist, value):
+    return filter(lambda x: x.startswith(value), wordlist)
+
+@prefix('Ends with')
+def filter_ends_with(wordlist, value):
+    return filter(lambda x: x.endswith(value), wordlist)
+
 @prefix('Base Scrabble score')
 def filter_by_scrabble_score(wordlist, value):
     def scrabble_score(word):
