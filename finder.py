@@ -13,5 +13,6 @@ with open(os.path.join(row, row_files[0]), 'r') as f:
 
 filters = dict()
 
+from decorators import *
 from dbd import *
 from sha1filter import *

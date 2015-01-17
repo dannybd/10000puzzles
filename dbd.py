@@ -1,17 +1,14 @@
-from decorators import prefix
-
 @prefix('Contains')
 def filter_contains(wordlist, contains):
     return filter(lambda x: contains in x, wordlist)
 
-word_scrabbles = dict()
-letter_score = {'A': 1, 'C': 3, 'B': 3, 'E': 1, 'D': 2, 'G': 2, 'F': 4, 'I': 1, 'H': 4, 'K': 5, 'J': 8, 'M': 3, 'L': 1, 'O': 1, 'N': 1, 'Q': 10, 'P': 3, 'S': 1, 'R': 1, 'U': 1, 'T': 1, 'W': 4, 'V': 4, 'Y': 4, 'X': 8, 'Z': 10}
-for word in words:
-    word_scrabbles[word] = sum(letter_score[c] for c in word)
-
 @prefix('Base Scrabble score')
 def filter_by_scrabble_score(wordlist, value):
-    global word_scrabbles
+    global words
+    word_scrabbles = dict()
+    letter_score = {'A': 1, 'C': 3, 'B': 3, 'E': 1, 'D': 2, 'G': 2, 'F': 4, 'I': 1, 'H': 4, 'K': 5, 'J': 8, 'M': 3, 'L': 1, 'O': 1, 'N': 1, 'Q': 10, 'P': 3, 'S': 1, 'R': 1, 'U': 1, 'T': 1, 'W': 4, 'V': 4, 'Y': 4, 'X': 8, 'Z': 10}
+    for word in words:
+        word_scrabbles[word] = sum(letter_score[c] for c in word)
     value = [int(i) for i in re.findall('\d+\.?\d+?', value)]
     if len(value) == 1:
         value = [value[0], value[0]]
