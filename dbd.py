@@ -1,5 +1,5 @@
 from decorators import prefix
-from ctypes import c_float
+from ctypes import c_float, c_uint
 
 @prefix('Contains')
 def filter_contains(wordlist, contains):
@@ -98,4 +98,10 @@ def filter_double_exact(wordlist, value):
 def filter_single_exact(wordlist, value):
     boolean = (value == 'YES')
     test = lambda x: x == c_float(x).value
+    return filter(lambda x: test(base_26(x)) == boolean, wordlist)
+
+@prefix('Word interpreted as a base 26 number (A=0, B=1, etc) is representable as an unsigned 32-bit integer')
+def filter_single_exact(wordlist, value):
+    boolean = (value == 'YES')
+    test = lambda x: x == c_uint(x).value
     return filter(lambda x: test(base_26(x)) == boolean, wordlist)
