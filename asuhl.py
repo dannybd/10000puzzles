@@ -73,3 +73,9 @@ def handle_most_common_vowels(wordlist, rest):
 	return handle_something_with_possible_range(
 		lambda word : mostcommon(filter(lambda x : x in vowels, word)),
 		wordlist, rest)
+
+@prefix("Contains at least one doubled letter")
+def handle_doubled_letter(wordlist, rest):
+	def has_doubled_letter(word):
+		return re.search("(.)\\1", word) != None
+	return filter(lambda word : (rest == "YES") == (has_doubled_letter(word)), wordlist)
