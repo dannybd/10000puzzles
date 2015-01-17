@@ -54,7 +54,8 @@ _2_alpha = map(str.lower, [
 def _subsInWord(w, s):
     return filter(lambda x: w.find(x.lower()) >= 0, s)
 
-def _markMost(w, subs, memo={}):
+_markMostMemo = {}
+def _markMost(w, subs, memo=_markMostMemo):
     subs = _subsInWord(w, subs)
     key = ':'.join(map(str, (w, subs)))
     if key not in memo:
