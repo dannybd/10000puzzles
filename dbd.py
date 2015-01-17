@@ -108,13 +108,13 @@ def filter_single_exact(wordlist, value):
     return filter(lambda x: test(base_26(x)) == boolean, wordlist)
 
 @prefix('Word interpreted as a base 26 number (A=0, B=1, etc) is representable as an unsigned 32-bit integer')
-def filter_single_exact(wordlist, value):
+def filter_uint32(wordlist, value):
     boolean = (value == 'YES')
-    test = lambda x: x == c_uint(x).value
-    return filter(lambda x: (0 <= x <= 2**32-1) == boolean, wordlist)
+    test = lambda x: 0 <= x <= 2**32-1
+    return filter(lambda x: test(base_26(x)) == boolean, wordlist)
 
 @prefix('Word interpreted as a base 26 number (A=0, B=1, etc) is representable as an unsigned 64-bit integer')
-def filter_single_exact(wordlist, value):
+def filter_uint64(wordlist, value):
     boolean = (value == 'YES')
-    test = lambda x: x == c_uint(x).value
-    return filter(lambda x: (0 <= x <= 2**64-1) == boolean, wordlist)
+    test = lambda x: 0 <= x <= 2**64-1
+    return filter(lambda x: test(base_26(x)) == boolean, wordlist)
