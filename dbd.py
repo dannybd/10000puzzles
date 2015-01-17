@@ -1,3 +1,5 @@
+from ctypes import c_float
+
 @prefix('Contains')
 def filter_contains(wordlist, contains):
     return filter(lambda x: contains in x, wordlist)
@@ -84,3 +86,15 @@ def filter_base_26_divisible_by_5(wordlist, value):
 @prefix('Word interpreted as a base 26 number (A=0, B=1, etc) is divisible by 7')
 def filter_base_26_divisible_by_7(wordlist, value):
     return filter_base_26_divisible_by_n(wordlist, value, 7)
+
+@prefix('Word interpreted as a base 26 number (A=0, B=1, etc) is exactly representable in IEEE 754 double-precision floating point format')
+def filter_double_exact(wordlist, value):
+    boolean = (value == 'YES')
+    test = lambda x: x == float(x)
+    return filter(lambda x: test(base_26(x)) == boolean, wordlist)
+
+@prefix('Word interpreted as a base 26 number (A=0, B=1, etc) is exactly representable in IEEE 754 single-precision floating point format')
+def filter_single_exact(wordlist, value):
+    boolean = (value == 'YES')
+    test = lambda x: x == c_float(x).value
+    return filter(lambda x: test(base_26(x)) == boolean, wordlist)
