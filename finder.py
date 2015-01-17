@@ -28,3 +28,14 @@ def filter_by_scrabble_score(wordlist, score):
         return filter(lambda x: word_scrabbles[x] == score[0], wordlist)
     return filter(lambda x: score[0] <= word_scrabbles[x] <= score[1], wordlist)
 filters['Base Scrabble score'] = filter_by_scrabble_score
+
+def filter_ends_with(wordlist, value):
+    return filter(lambda x: x.endswith(value), wordlist)
+filters['Ends with'] = filter_ends_with
+
+def filter_length(wordlist, length):
+    length = [int(i) for i in re.findall('\d+\.?\d+?', length)]
+    if len(length) == 1:
+        return filter(lambda x: len(x) == length[0], wordlist)
+    return filter(lambda x: length[0] <= len(x) <= length[1], wordlist)
+filters['Length'] = filter_length
