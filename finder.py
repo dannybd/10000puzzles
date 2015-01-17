@@ -17,13 +17,15 @@ from sha1filter import *
 from marked import *
 
 def run_row(i, verbose=False):
-    global words
+    global words, row_files
     if verbose:
-        print row_files[i]
-    with open(os.path.join(row, row_files[i]), 'r') as f:
+        print row + '_col' + str(i) + '.txt'
+    with open(os.path.join(row, row + '_col' + str(i) + '.txt'), 'r') as f:
         rules = f.read().splitlines()
     wordlist = words
     for rule in rules:
+        if ': ' not in rule:
+            continue
         key, value = rule.split(': ')
         key = key.lower()
         if verbose:
@@ -37,6 +39,7 @@ def run_row(i, verbose=False):
             print 'wordlist is now', len(wordlist), 'long'
     if verbose:
         print wordlist
+    return wordlist
 
 def check_rule(wordlist, rule):
     if ': ' not in rule:
@@ -45,6 +48,7 @@ def check_rule(wordlist, rule):
     key = key.lower()
     #print rule
     if key not in FILTERS:
+        global failures
         if key not in failures:
             failures['skipped: '+key] = 0
         failures['skipped: '+key] += 1
@@ -56,6 +60,7 @@ def check_rule(wordlist, rule):
 
 examples = filter(lambda x: x.startswith('normal'), os.listdir('examples'))
 failures = dict()
+answers = dict()
 def check_example(i):
     print examples[i]
     with open(os.path.join('examples', examples[i]), 'r') as f:
@@ -86,7 +91,7 @@ def check_example(i):
         if correct not in wordlist:
             print 'FAIL: word', correct, 'not found!', rule
             key = rule.split(': ')[0]
-            print key
+            print key in FILTERS
             bad_func = FILTERS[key].__name__
             print bad_func
             print '~~~', bad_func, 'is the culprit'
@@ -107,8 +112,8 @@ def check_all_examples():
     for i in range(len(examples)):
         try:
             check_example(i)
-        except Exception:
-            pass
+        except Exception, e:
+            print e
     print
     print
     for k in failures.keys():
