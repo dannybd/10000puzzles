@@ -1,5 +1,6 @@
 from decorators import prefix
-from ctypes import c_float, c_uint
+from ctypes import c_float
+from asuhl import handle_something_with_possible_range
 import re
 
 @prefix('Contains')
@@ -19,15 +20,18 @@ def filter_starts_with_a_vowel(wordlist, value):
     boolean = (value == 'YES')
     return filter(lambda x: (x[0] in 'AEIOU') == boolean, wordlist)
 
+def scrabble_score(word):
+    letter_score = {
+        'A': 1, 'B': 3, 'C': 3,  'D': 2, 'E': 1, 'F': 4, 'G': 2,
+        'H': 4, 'I': 1, 'J': 8,  'K': 5, 'L': 1, 'M': 3, 'N': 1,
+        'O': 1, 'P': 3, 'Q': 10, 'R': 1, 'S': 1, 'T': 1, 'U': 1,
+        'V': 4, 'W': 4, 'X': 8,  'Y': 4, 'Z': 10,
+    }
+    return sum(letter_score[c] for c in word)
+
 @prefix('Base Scrabble score')
 def filter_by_scrabble_score(wordlist, value):
-    def scrabble_score(word):
-        letter_score = {'A': 1, 'C': 3, 'B': 3, 'E': 1, 'D': 2, 'G': 2, 'F': 4, 'I': 1, 'H': 4, 'K': 5, 'J': 8, 'M': 3, 'L': 1, 'O': 1, 'N': 1, 'Q': 10, 'P': 3, 'S': 1, 'R': 1, 'U': 1, 'T': 1, 'W': 4, 'V': 4, 'Y': 4, 'X': 8, 'Z': 10}
-        return sum(letter_score[c] for c in word)
-    value = [int(i) for i in re.findall('[0-9\.]+', value)]
-    if len(value) == 1:
-        value = [value[0], value[0]]
-    return filter(lambda x: value[0] <= scrabble_score(x) <= value[1], wordlist)
+    return handle_something_with_possible_range(scrabble_score, wordlist, value)
 
 @prefix('Ends with')
 def filter_ends_with(wordlist, value):
@@ -35,23 +39,14 @@ def filter_ends_with(wordlist, value):
 
 @prefix('Length')
 def filter_length(wordlist, value):
-    value = [int(i) for i in re.findall('[0-9\.]+', value)]
-    if len(value) == 1:
-        value = [value[0], value[0]]
-    return filter(lambda x: value[0] <= len(x) <= value[1], wordlist)
+    return handle_something_with_possible_range(len, wordlist, value)
 
 def letter_sum(word):
-    total = 0
-    for c in word:
-        total += ord(c) - ord('A') + 1
-    return total
+    return sum([ord(c) - ord('A') + 1 for c in word])
 
 @prefix('Sum of letters (A=1, B=2, etc)')
 def filter_sum_of_letters(wordlist, value):
-    value = [int(i) for i in re.findall('[0-9\.]+', value)]
-    if len(value) == 1:
-        value = [value[0], value[0]]
-    return filter(lambda x: value[0] <= letter_sum(x) <= value[1], wordlist)
+    return handle_something_with_possible_range(letter_sum, wordlist, value)
 
 def filter_sum_of_letters_divisible_by_n(wordlist, value, n):
     boolean = (value == 'YES')
@@ -113,7 +108,13 @@ def filter_single_exact(wordlist, value):
     return filter(lambda x: test(base_26(x)) == boolean, wordlist)
 
 @prefix('Word interpreted as a base 26 number (A=0, B=1, etc) is representable as an unsigned 32-bit integer')
-def filter_single_exact(wordlist, value):
+def filter_uint32(wordlist, value):
     boolean = (value == 'YES')
-    test = lambda x: x == c_uint(x).value
+    test = lambda x: 0 <= x <= 2**32-1
+    return filter(lambda x: test(base_26(x)) == boolean, wordlist)
+
+@prefix('Word interpreted as a base 26 number (A=0, B=1, etc) is representable as an unsigned 64-bit integer')
+def filter_uint64(wordlist, value):
+    boolean = (value == 'YES')
+    test = lambda x: 0 <= x <= 2**64-1
     return filter(lambda x: test(base_26(x)) == boolean, wordlist)
