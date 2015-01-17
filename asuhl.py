@@ -40,10 +40,6 @@ def handle_middle_qwerty(wordlist, rest):
 def handle_top_qwerty(wordlist, rest):
 	return handle_something_with_possible_range(lambda word : letters_of_set_in_word(word,"QWERTYUIOP"), wordlist, rest)
 
-if __name__ == "__main__":
-	wordlist = ["1ZZZ","2w4rtyuioZ","3ZZZZZZ","51SDFGHZZZ"]
-	print handle_bottom_qwerty(wordlist,"3") #1zzz, 51sdfg...
-	print handle_bottom_qwerty(wordlist,"exactly 10% of the letters") #2w4rtyuioz
-	print handle_bottom_qwerty(wordlist,"between 5 and 6 of the letters") #3zzzzzz
-	print handle_bottom_qwerty(wordlist,"exactly 1 of the letters") #2w4rtyuioz
-	print handle_bottom_qwerty(wordlist,"between 20.1% and 30.1% of the letters")# 5
+@prefix("Vowels")
+def handle_vowels(wordlist, rest):
+	return handle_something_with_possible_range(lambda word : letters_of_set_in_word(word,"AEIOU"), wordlist, rest)
