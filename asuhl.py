@@ -45,4 +45,3 @@ def handle_vowels(wordlist, rest):
 	return handle_something_with_possible_range(lambda word : letters_of_set_in_word(word,"AEIOU"), wordlist, rest)
 
 
-print handle_middle_qwerty(["DEADPAN"], "between 57.1% and 57.2% (inclusive) of the letters")
