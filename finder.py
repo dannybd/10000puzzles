@@ -24,6 +24,7 @@ def run_row(i, verbose=False):
     wordlist = words
     for rule in rules:
         key, value = rule.split(': ')
+        key = key.lower()
         if verbose:
             print key, value
         if key not in FILTERS:
@@ -40,23 +41,57 @@ def check_rule(wordlist, rule):
     if ': ' not in rule:
         return wordlist
     key, value = rule.split(': ')
-    print rule
+    key = key.lower()
+    #print rule
     if key not in FILTERS:
+        if key not in failures:
+            failures[key] = 0
+        failures[key] += 1
         return wordlist
-    print 'Found key in FILTERS: calling function', FILTERS[key].__name__
+    #print 'Found key in FILTERS: calling function', FILTERS[key].__name__
     wordlist = FILTERS[key](wordlist, value)
-    print 'wordlist is now', len(wordlist), 'long'
+    #print 'wordlist is now', len(wordlist), 'long'
     return wordlist
 
 examples = filter(lambda x: x.startswith('normal'), os.listdir('examples'))
-
+failures = dict()
 def check_example(i):
     print examples[i]
     with open(os.path.join('examples', examples[i]), 'r') as f:
         rules = f.read().splitlines()
+    correct = re.findall('[A-Z]{2,}(?=:)', rules[0])[0]
     global words
     wordlist = words
     for rule in rules:
-        print rule
+        #print rule
         wordlist = check_rule(wordlist, rule)
-    print wordlist
+        if correct not in wordlist:
+            print 'FAIL:', correct, 'not found!'
+            key = rule.split(': ')[0]
+            bad_func = FILTERS[key].__name__
+            print '~~~', bad_func, 'is the culprit'
+            global failures
+            if bad_func not in failures:
+                failures[bad_func] = 0
+            failures[bad_func] += 1
+            return
+    print len(wordlist)
+    #print wordlist
+    #print
+    #print 'PASS:', correct, 'found in wordlist!'
+    #print
+
+def check_all_examples():
+    global failures
+    failures = dict()
+    for i in range(len(examples)):
+        try:
+            check_example(i)
+        except Exception:
+            pass
+    print
+    print
+    for k in failures.keys():
+        print k, '\t\t', failures[k]
+
+
