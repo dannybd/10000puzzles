@@ -3,6 +3,18 @@ import re
 
 consonants = "BCDFGHJKLMNPQRSTVWXYZ"
 vowels = "AEIOU"
+
+# Precompute anagramset
+with open('words.txt', 'r') as f:
+	fullwordlist = f.read().splitlines()
+sortedwordlist = ["".join(sorted(word)) for word in fullwordlist]
+freqdict = dict()
+for sw in sortedwordlist:
+	if sw in freqdict: freqdict[sw] += 1
+	else: freqdict[sw] = 1
+anagramset = set([sw for sw in freqdict.keys() if freqdict[sw] > 1])
+
+
 def distinct_consonants_in_word(word):
 	return len(set(filter(lambda x : x in consonants, word)))
 def distinct_vowels_in_word(word):
@@ -79,3 +91,7 @@ def handle_doubled_letter(wordlist, rest):
 	def has_doubled_letter(word):
 		return re.search("(.)\\1", word) != None
 	return filter(lambda word : (rest == "YES") == (has_doubled_letter(word)), wordlist)
+
+@prefix("Has at least one anagram that is also in the word list")
+def handle_has_anagram(wordlist, rest):
+	return filter(lambda word: (rest == "YES") == ("".join(sorted(word)) in anagramset), wordlist)
