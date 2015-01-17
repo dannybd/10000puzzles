@@ -46,8 +46,8 @@ def check_rule(wordlist, rule):
     #print rule
     if key not in FILTERS:
         if key not in failures:
-            failures[key] = 0
-        failures[key] += 1
+            failures['skipped: '+key] = 0
+        failures['skipped: '+key] += 1
         return wordlist
     #print 'Found key in FILTERS: calling function', FILTERS[key].__name__
     wordlist = FILTERS[key](wordlist, value)
@@ -63,13 +63,32 @@ def check_example(i):
     correct = re.findall('[A-Z]{2,}(?=:)', rules[0])[0]
     global words
     wordlist = words
+    deferred_rules = []
     for rule in rules:
+        if 'overlap' in rule:
+            deferred_rules.append(rule)
+            continue
         #print rule
         wordlist = check_rule(wordlist, rule)
         if correct not in wordlist:
-            print 'FAIL:', correct, 'not found!'
+            print 'FAIL: word', correct, 'not found!'
             key = rule.split(': ')[0]
             bad_func = FILTERS[key].__name__
+            print '~~~', bad_func, 'is the culprit'
+            global failures
+            if bad_func not in failures:
+                failures[bad_func] = 0
+            failures[bad_func] += 1
+            return
+    for rule in deferred_rules:
+        #print rule
+        wordlist = check_rule(wordlist, rule)
+        if correct not in wordlist:
+            print 'FAIL: word', correct, 'not found!', rule
+            key = rule.split(': ')[0]
+            print key
+            bad_func = FILTERS[key].__name__
+            print bad_func
             print '~~~', bad_func, 'is the culprit'
             global failures
             if bad_func not in failures:
