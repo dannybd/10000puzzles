@@ -21,11 +21,11 @@ def letters_of_set_in_word(word, letters):
 def handle_something_with_possible_range(word_to_number_function, wordlist, rest):
 	if "%" in rest:
 		bounds = get_bounds_from_regexp("\d+\.?\d*",rest)
-		#print "Bounds for \"" + rest + "\": " + str(bounds)
-		return filter(lambda word : float(bounds[0]) <= word_to_number_function(word) * 100 / len(word) <= float(bounds[1]),   wordlist)
+		print "Bounds for \"" + rest + "\": " + str(bounds)
+		return filter(lambda word : float(bounds[0]) <= word_to_number_function(word) * 100. / len(word) <= float(bounds[1]),   wordlist)
 	else:
 		bounds = get_bounds_from_regexp("\d+",rest)
-		#print "Bounds for \"" + rest + "\": " + str(bounds)
+		print "Bounds for \"" + rest + "\": " + str(bounds)
 		return filter(lambda word : int(bounds[0]) <= word_to_number_function(word) <= int(bounds[1]),   wordlist)
 
 
@@ -43,3 +43,6 @@ def handle_top_qwerty(wordlist, rest):
 @prefix("Vowels")
 def handle_vowels(wordlist, rest):
 	return handle_something_with_possible_range(lambda word : letters_of_set_in_word(word,"AEIOU"), wordlist, rest)
+
+
+print handle_middle_qwerty(["DEADPAN"], "between 57.1% and 57.2% (inclusive) of the letters")
