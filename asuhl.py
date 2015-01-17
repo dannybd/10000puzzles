@@ -3,15 +3,17 @@ import re
 
 consonants = "BCDFGHJKLMNPQRSTVWXYZ"
 vowels = "AEIOU"
+letters = consonants + vowels
 
 # Precompute anagramset
 with open('words.txt', 'r') as f:
 	fullwordlist = f.read().splitlines()
 sortedwordlist = ["".join(sorted(word)) for word in fullwordlist]
-freqdict = dict()
+freqdict = {}
 for sw in sortedwordlist:
 	if sw in freqdict: freqdict[sw] += 1
 	else: freqdict[sw] = 1
+sortedwordlist = set(sortedwordlist)
 anagramset = set([sw for sw in freqdict.keys() if freqdict[sw] > 1])
 
 
@@ -104,17 +106,26 @@ def handle_has_anagram(wordlist, rest):
 	return filter(lambda word: (rest == "YES") == ("".join(sorted(word)) in anagramset), wordlist)
 
 @prefix("Can be combined with one additional letter to produce an anagram of something in the word list")
-def handle_plus_letter_has_anagram(wordlist, rest):
-	return filter(
-		lambda word: (rest == "YES") == any(
-			["".join(sorted(word + letter)) in anagramset for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-		),
-		wordlist) 
+def handle_plus_one_letter_has_anagram(wordlist, rest):
+	def test(word, memo={}):
+		if word in memo: return memo[word]
+		for l in letters:
+			if ''.join(sorted(word+l)) in sortedwordlist:
+				memo[word] = True
+				return memo[word]
+		memo[word] = False
+		return memo[word]
+	return filter(lambda word: (rest == "YES") == test(word), wordlist)
 
 @prefix("Can be combined with two additional letters to produce an anagram of something in the word list")
-def handle_plus_letter_has_anagram(wordlist, rest):
-	return filter(
-		lambda word: (rest == "YES") == any(
-			["".join(sorted(word + letter1 + letter2)) in anagramset for letter1 in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for letter2 in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-		),
-		wordlist) 
+def handle_plus_two_letter_has_anagram(wordlist, rest):
+	def test(word,memo={}):
+		if word in memo: return memo[word]
+		for l1 in letters:
+			for l2 in letters[letters.find(l1):]:
+				if ''.join(sorted(word+l1+l2)) in sortedwordlist:
+					memo[word] = True
+					return memo[word]
+		memo[word] = False
+		return memo[word]
+	return filter(lambda word: (rest == "YES") == test(word), wordlist)

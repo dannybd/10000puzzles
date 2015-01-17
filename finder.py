@@ -57,7 +57,7 @@ def run_row(i):
     for rule in rules:
         if ': ' not in rule:
             continue
-        if 'overlap' in rule:
+        if 'overlap' in rule or 'anagram' in rule:
             deferred_rules.append(rule)
             continue
         key, value = rule.split(': ')
@@ -125,7 +125,7 @@ def check_example(i):
     wordlist = words
     deferred_rules = []
     for rule in rules:
-        if 'overlap' in rule:
+        if 'overlap' in rule or 'anagram' in rule:
             deferred_rules.append(rule)
             continue
         #print rule
