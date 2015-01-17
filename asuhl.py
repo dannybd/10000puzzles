@@ -3,19 +3,30 @@ import re
 
 consonants = "BCDFGHJKLMNPQRSTVWXYZ"
 vowels = "AEIOU"
-def distinct_constants_in_word(word):
+def distinct_consonants_in_word(word):
 	return len(set(filter(lambda x : x in consonants, word)))
+def distinct_vowels_in_word(word):
+	return len(set(filter(lambda x : x in vowels, word)))
 	
 def get_bounds_from_regexp(regexp, rest):
 	bounds = re.findall(regexp, rest)
 	if len(bounds) == 1: bounds = bounds + bounds
 	return bounds
 
-@prefix("Distinct Consonants")
+@prefix("Distinct consonants")
 def handle_distinct_consonants(wordlist, rest):
 	bounds = get_bounds_from_regexp('\d+',rest)
-	return filter(lambda word: int(bounds[0]) <= distinct_constants_in_word(word) <= int(bounds[1]), wordlist)
+	return filter(lambda word: int(bounds[0]) <= distinct_consonants_in_word(word) <= int(bounds[1]), wordlist)
 
+@prefix("Distinct vowels")
+def handle_distinct_vowels(wordlist, rest):
+	bounds = get_bounds_from_regexp('\d+',rest)
+	return filter(lambda word: int(bounds[0]) <= distinct_vowels_in_word(word) <= int(bounds[1]), wordlist)
+
+@prefix("Distinct letters")
+def handle_distinct_letters(wordlist, rest):
+	bounds = get_bounds_from_regexp('\d+',rest)
+	return filter(lambda word: int(bounds[0]) <= len(set(word)) <= int(bounds[1]), wordlist)
 
 def letters_of_set_in_word(word, letters):
 	return len(filter(lambda x: x in letters, word))
