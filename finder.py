@@ -27,4 +27,4 @@ def filter_by_scrabble_score(wordlist, score):
     if len(score) == 1:
         return filter(lambda x: word_scrabbles[x] == score[0], wordlist)
     return filter(lambda x: score[0] <= word_scrabbles[x] <= score[1], wordlist)
-filters['Base Scrabble score'] = filter_contains
+filters['Base Scrabble score'] = filter_by_scrabble_score
