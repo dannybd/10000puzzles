@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from decorators import prefix
 from hashlib import sha1
 
 @prefix('SHA-1 hash of lowercased word, expressed in hexadecimal, contains')
