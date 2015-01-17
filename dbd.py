@@ -55,7 +55,7 @@ def filter_sum_of_letters(wordlist, value):
 
 def filter_sum_of_letters_divisible_by_n(wordlist, value, n):
     boolean = (value == 'YES')
-    return filter(lambda x: (letter_sum(x) % n != 0) == boolean, wordlist)
+    return filter(lambda x: (letter_sum(x) % n == 0) == boolean, wordlist)
 
 @prefix('Sum of letters (A=1, B=2, etc) is divisible by 2')
 def filter_sum_of_letters_divisible_by_2(wordlist, value):
@@ -82,7 +82,7 @@ def base_26(word):
 
 def filter_base_26_divisible_by_n(wordlist, value, n):
     boolean = (value == 'YES')
-    return filter(lambda x: (base_26(x) % n != 0) == boolean, wordlist)
+    return filter(lambda x: (base_26(x) % n == 0) == boolean, wordlist)
 
 @prefix('Word interpreted as a base 26 number (A=0, B=1, etc) is divisible by 2')
 def filter_base_26_divisible_by_2(wordlist, value):
