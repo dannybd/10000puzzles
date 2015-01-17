@@ -14,6 +14,7 @@ from decorators import *
 from dbd import *
 from asuhl import *
 from sha1filter import *
+from marked import *
 
 def run_row(i, verbose=False):
     global words
