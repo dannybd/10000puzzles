@@ -86,6 +86,13 @@ def handle_most_common_vowels(wordlist, rest):
 		lambda word : mostcommon(filter(lambda x : x in vowels, word)),
 		wordlist, rest)
 
+@prefix("Most common letter(s) each account(s) for")
+@prefix("Most common letter(s) each appear(s)")
+def handle_most_common_letters(wordlist, rest):
+	return handle_something_with_possible_range(
+		mostcommon,
+		wordlist, rest)
+
 @prefix("Contains at least one doubled letter")
 def handle_doubled_letter(wordlist, rest):
 	def has_doubled_letter(word):
@@ -96,9 +103,18 @@ def handle_doubled_letter(wordlist, rest):
 def handle_has_anagram(wordlist, rest):
 	return filter(lambda word: (rest == "YES") == ("".join(sorted(word)) in anagramset), wordlist)
 
+@prefix("Can be combined with one additional letter to produce an anagram of something in the word list")
 def handle_plus_letter_has_anagram(wordlist, rest):
 	return filter(
 		lambda word: (rest == "YES") == any(
 			["".join(sorted(word + letter)) in anagramset for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+		),
+		wordlist) 
+
+@prefix("Can be combined with two additional letters to produce an anagram of something in the word list")
+def handle_plus_letter_has_anagram(wordlist, rest):
+	return filter(
+		lambda word: (rest == "YES") == any(
+			["".join(sorted(word + letter1 + letter2)) in anagramset for letter1 in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for letter2 in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
 		),
 		wordlist) 
