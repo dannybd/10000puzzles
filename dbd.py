@@ -1,5 +1,6 @@
 from decorators import prefix
 from ctypes import c_float, c_uint
+import re
 
 @prefix('Contains')
 def filter_contains(wordlist, contains):
@@ -12,7 +13,7 @@ def filter_by_scrabble_score(wordlist, value):
     letter_score = {'A': 1, 'C': 3, 'B': 3, 'E': 1, 'D': 2, 'G': 2, 'F': 4, 'I': 1, 'H': 4, 'K': 5, 'J': 8, 'M': 3, 'L': 1, 'O': 1, 'N': 1, 'Q': 10, 'P': 3, 'S': 1, 'R': 1, 'U': 1, 'T': 1, 'W': 4, 'V': 4, 'Y': 4, 'X': 8, 'Z': 10}
     for word in words:
         word_scrabbles[word] = sum(letter_score[c] for c in word)
-    value = [int(i) for i in re.findall('\d+\.?\d+?', value)]
+    value = [int(i) for i in re.findall('[0-9\.]+', value)]
     if len(value) == 1:
         value = [value[0], value[0]]
     return filter(lambda x: value[0] <= word_scrabbles[x] <= value[1], wordlist)
@@ -23,7 +24,7 @@ def filter_ends_with(wordlist, value):
 
 @prefix('Length')
 def filter_length(wordlist, value):
-    value = [int(i) for i in re.findall('\d+\.?\d+?', value)]
+    value = [int(i) for i in re.findall('[0-9\.]+', value)]
     if len(value) == 1:
         value = [value[0], value[0]]
     return filter(lambda x: value[0] <= len(x) <= value[1], wordlist)
@@ -31,12 +32,12 @@ def filter_length(wordlist, value):
 def letter_sum(word):
     total = 0
     for c in word:
-	total += ord(c) - ord('A') + 1
+        total += ord(c) - ord('A') + 1
     return total
 
 @prefix('Sum of letters (A=1, B=2, etc)')
 def filter_sum_of_letters(wordlist, value):
-    value = [int(i) for i in re.findall('\d+\.?\d+?', value)]
+    value = [int(i) for i in re.findall('[0-9\.]+', value)]
     if len(value) == 1:
         value = [value[0], value[0]]
     return filter(lambda x: value[0] <= letter_sum(x) <= value[1], wordlist)
