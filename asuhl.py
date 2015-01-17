@@ -2,7 +2,7 @@ from decorators import prefix
 import re
 
 def distinct_constants_in_word(word):
-	return len(set(filter(lambda x : x in "BCDFGHJKLMNPQRSTVWXYZ", word))))
+	return len(set(filter(lambda x : x in "BCDFGHJKLMNPQRSTVWXYZ", word)))
 	
 @prefix("Distinct Consonants")
 def handle_distinct_consonants(wordlist, rest):
