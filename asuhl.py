@@ -95,3 +95,10 @@ def handle_doubled_letter(wordlist, rest):
 @prefix("Has at least one anagram that is also in the word list")
 def handle_has_anagram(wordlist, rest):
 	return filter(lambda word: (rest == "YES") == ("".join(sorted(word)) in anagramset), wordlist)
+
+def handle_plus_letter_has_anagram(wordlist, rest):
+	return filter(
+		lambda word: (rest == "YES") == any(
+			["".join(sorted(word + letter)) in anagramset for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+		),
+		wordlist) 
