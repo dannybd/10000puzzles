@@ -30,3 +30,13 @@ def run_row(i):
         wordlist = FILTERS[key](wordlist, value)
         print 'wordlist is now', len(wordlist), 'long'
     print wordlist
+
+def check_rule(wordlist, rule):
+    key, value = rule.split(': ')
+    print key, value
+    if key not in FILTERS:
+        return
+    print key, 'in FILTERS'
+    wordlist = FILTERS[key](wordlist, value)
+    print 'wordlist is now', len(wordlist), 'long'
+    return wordlist
