@@ -1,0 +1,2155 @@
+row0/row0_col69.txt:Has property PEPI: YES
+row0/row0_col70.txt:This is NOT a word with property PEPI.
+row0/row0_col71.txt:This is a word with property BIKHERIS.
+row1/row1_col64.txt:This is NOT a word with property SOBEKNEFERU.
+row1/row1_col67.txt:Has property KHUI: YES
+row1/row1_col73.txt:Has property PEPI: YES
+row1/row1_col76.txt:Has property SOBEKNEFERU: YES
+row10/row10_col60.txt:Has property SOBEKNEFERU: YES
+row10/row10_col63.txt:Has property AMENEMHAT: YES
+row10/row10_col72.txt:This is a word with property ABUSIR.
+row10/row10_col80.txt:This is a word with property UNAS.
+row100/row100_col102.txt:Has property KHUI: YES
+row100/row100_col102.txt:Has property MAZGHUNA: YES
+row100/row100_col102.txt:Has property MEIDUM: YES
+row100/row100_col121.txt:This is a word with property MAZGHUNA.
+row100/row100_col123.txt:This is a word with property SETHKA.
+row100/row100_col15.txt:This is NOT a word with property NEFEREFRE.
+row100/row100_col16.txt:Has property PEPI: YES
+row100/row100_col18.txt:This is a word with property BIKHERIS.
+row100/row100_col26.txt:Has property AMENYQEMAU: YES
+row100/row100_col35.txt:Has property KHUI: YES
+row100/row100_col35.txt:Has property MAZGHUNA: YES
+row100/row100_col37.txt:This is a word with property LISHT.
+row100/row100_col37.txt:This is a word with property MENKAURE.
+row100/row100_col39.txt:This is NOT a word with property SOBEKNEFERU.
+row100/row100_col39.txt:This is NOT a word with property HAWARA.
+row100/row100_col41.txt:Has property MAZGHUNA: YES
+row100/row100_col49.txt:This is a word with property MERENRE.
+row100/row100_col52.txt:Has property KHUI: YES
+row100/row100_col60.txt:This is a word with property ABUSIR.
+row100/row100_col66.txt:This is a word with property MERENRE.
+row100/row100_col71.txt:Has property KHUI: YES
+row100/row100_col75.txt:Has property MAZGHUNA: YES
+row100/row100_col77.txt:This is NOT a word with property MENKAURE.
+row100/row100_col80.txt:This is NOT a word with property NURI.
+row100/row100_col85.txt:Has property SETHKA: YES
+row100/row100_col87.txt:This is a word with property ABUSIR.
+row100/row100_col89.txt:This is NOT a word with property NEFEREFRE.
+row101/row101_col105.txt:This is a word with property BIKHERIS.
+row101/row101_col106.txt:This is NOT a word with property SOBEKNEFERU.
+row101/row101_col108.txt:Has property MERENRE: YES
+row101/row101_col110.txt:Has property KHUI: YES
+row101/row101_col116.txt:Has property MEIDUM: YES
+row101/row101_col120.txt:This is a word with property LISHT.
+row101/row101_col121.txt:This is a word with property KHUI.
+row101/row101_col122.txt:This is a word with property QAKAREIBI.
+row101/row101_col127.txt:This is NOT a word with property KHUI.
+row101/row101_col32.txt:Has property MAZGHUNA: YES
+row101/row101_col34.txt:Has property MERENRE: YES
+row101/row101_col42.txt:Has property KHUI: YES
+row101/row101_col48.txt:Has property KHUI: YES
+row101/row101_col49.txt:Has property PEPI: YES
+row101/row101_col50.txt:This is NOT a word with property MEIDUM.
+row101/row101_col51.txt:Has property AMENYQEMAU: YES
+row101/row101_col51.txt:Has property MERENRE: YES
+row101/row101_col52.txt:Has property KHUI: YES
+row101/row101_col59.txt:Has property SETHKA: YES
+row101/row101_col64.txt:Has property MERENRE: YES
+row101/row101_col71.txt:This is NOT a word with property MEIDUM.
+row101/row101_col73.txt:This is NOT a word with property KHUI.
+row101/row101_col74.txt:Has property KHUI: YES
+row101/row101_col75.txt:Has property SETHKA: YES
+row101/row101_col82.txt:Has property QAKAREIBI: YES
+row101/row101_col87.txt:Has property MAZGHUNA: YES
+row102/row102_col106.txt:Has property AMENYQEMAU: YES
+row102/row102_col110.txt:This is NOT a word with property LISHT.
+row102/row102_col113.txt:Has property KHUI: YES
+row102/row102_col114.txt:Has property AMENYQEMAU: YES
+row102/row102_col117.txt:This is a word with property MERENRE.
+row102/row102_col120.txt:This is a word with property NEFEREFRE.
+row102/row102_col127.txt:Has property QAKAREIBI: YES
+row102/row102_col14.txt:Has property QAKAREIBI: YES
+row102/row102_col16.txt:This is a word with property ABUSIR.
+row102/row102_col17.txt:Has property MEIDUM: YES
+row102/row102_col26.txt:This is a word with property ABUSIR.
+row102/row102_col32.txt:Has property DJOSER: YES
+row102/row102_col34.txt:This is a word with property MERENRE.
+row102/row102_col38.txt:This is NOT a word with property AMENYQEMAU.
+row102/row102_col40.txt:This is NOT a word with property SETHKA.
+row102/row102_col44.txt:Has property AMENYQEMAU: YES
+row102/row102_col55.txt:Has property HAWARA: YES
+row102/row102_col55.txt:Has property KHUI: YES
+row102/row102_col63.txt:This is a word with property MAZGHUNA.
+row102/row102_col65.txt:Has property KHUI: YES
+row102/row102_col67.txt:This is NOT a word with property MENKAURE.
+row102/row102_col70.txt:Has property KHUI: YES
+row102/row102_col86.txt:Has property QAKAREIBI: YES
+row102/row102_col92.txt:This is NOT a word with property QAKAREIBI.
+row103/row103_col108.txt:This is NOT a word with property HAWARA.
+row103/row103_col111.txt:This is a word with property MEIDUM.
+row103/row103_col117.txt:Has property KHUI: YES
+row103/row103_col119.txt:Has property KHUI: YES
+row103/row103_col20.txt:Has property DJOSER: YES
+row103/row103_col20.txt:Has property MAZGHUNA: YES
+row103/row103_col27.txt:This is NOT a word with property ABUSIR.
+row103/row103_col31.txt:Has property QAKAREIBI: YES
+row103/row103_col32.txt:This is NOT a word with property AMENEMHAT.
+row103/row103_col37.txt:This is a word with property MAZGHUNA.
+row103/row103_col39.txt:Has property KHUI: YES
+row103/row103_col44.txt:Has property KHUI: YES
+row103/row103_col45.txt:This is a word with property MERENRE.
+row103/row103_col54.txt:Has property AMENYQEMAU: YES
+row103/row103_col56.txt:Has property AMENYQEMAU: YES
+row103/row103_col61.txt:Has property SETHKA: YES
+row103/row103_col62.txt:This is NOT a word with property ABUSIR.
+row103/row103_col63.txt:This is a word with property KHUI.
+row103/row103_col71.txt:Has property MAZGHUNA: YES
+row103/row103_col73.txt:This is NOT a word with property UNAS.
+row103/row103_col85.txt:Has property MERENRE: YES
+row103/row103_col93.txt:Has property AMENYQEMAU: YES
+row103/row103_col94.txt:This is NOT a word with property DJOSER.
+row103/row103_col98.txt:Has property QAKAREIBI: YES
+row104/row104_col100.txt:Has property KHUI: YES
+row104/row104_col103.txt:Has property KHUI: YES
+row104/row104_col110.txt:Has property HAWARA: YES
+row104/row104_col110.txt:Has property KHUI: YES
+row104/row104_col114.txt:Has property KHUI: YES
+row104/row104_col122.txt:This is a word with property KHUI.
+row104/row104_col126.txt:Has property BIKHERIS: YES
+row104/row104_col127.txt:This is NOT a word with property ABUSIR.
+row104/row104_col29.txt:This is NOT a word with property AMENEMHAT.
+row104/row104_col35.txt:This is NOT a word with property ABUSIR.
+row104/row104_col38.txt:Has property KHUI: YES
+row104/row104_col39.txt:This is NOT a word with property ABUSIR.
+row104/row104_col42.txt:Has property MERENRE: YES
+row104/row104_col44.txt:Has property KHUI: YES
+row104/row104_col46.txt:Has property KHUI: YES
+row104/row104_col55.txt:This is NOT a word with property AMENEMHAT.
+row104/row104_col59.txt:This is NOT a word with property BIKHERIS.
+row104/row104_col63.txt:Has property MERENRE: YES
+row104/row104_col69.txt:Has property MAZGHUNA: YES
+row104/row104_col71.txt:Has property QAKAREIBI: YES
+row104/row104_col72.txt:Has property MERENRE: YES
+row104/row104_col75.txt:Has property MERENRE: YES
+row104/row104_col78.txt:Has property MAZGHUNA: YES
+row104/row104_col79.txt:This is a word with property MENKAURE.
+row104/row104_col82.txt:This is NOT a word with property LISHT.
+row104/row104_col83.txt:Has property MAZGHUNA: YES
+row104/row104_col84.txt:This is a word with property SETHKA.
+row104/row104_col89.txt:Has property KHUI: YES
+row104/row104_col93.txt:Has property HAWARA: YES
+row104/row104_col97.txt:Has property AMENYQEMAU: YES
+row105/row105_col102.txt:This is NOT a word with property LISHT.
+row105/row105_col103.txt:This is a word with property MENKAURE.
+row105/row105_col112.txt:Has property MERENRE: YES
+row105/row105_col119.txt:This is NOT a word with property AMENYQEMAU.
+row105/row105_col130.txt:This is NOT a word with property LISHT.
+row105/row105_col15.txt:Has property DJOSER: YES
+row105/row105_col15.txt:Has property PEPI: YES
+row105/row105_col17.txt:This is a word with property MEIDUM.
+row105/row105_col18.txt:Has property PEPI: YES
+row105/row105_col21.txt:Has property AMENYQEMAU: YES
+row105/row105_col22.txt:Has property DJOSER: YES
+row105/row105_col25.txt:This is NOT a word with property SETHKA.
+row105/row105_col28.txt:Has property DJOSER: YES
+row105/row105_col31.txt:This is a word with property MEIDUM.
+row105/row105_col36.txt:This is NOT a word with property DJOSER.
+row105/row105_col37.txt:This is a word with property MERENRE.
+row105/row105_col47.txt:Has property AMENYQEMAU: YES
+row105/row105_col48.txt:Has property MAZGHUNA: YES
+row105/row105_col60.txt:This is a word with property KHUI.
+row105/row105_col66.txt:This is NOT a word with property AMENYQEMAU.
+row105/row105_col68.txt:This is a word with property AMENEMHAT.
+row105/row105_col73.txt:Has property AMENYQEMAU: YES
+row105/row105_col73.txt:Has property MERENRE: YES
+row105/row105_col76.txt:Has property MAZGHUNA: YES
+row105/row105_col82.txt:Has property MAZGHUNA: YES
+row105/row105_col84.txt:Has property MERENRE: YES
+row105/row105_col88.txt:Has property KHUI: YES
+row105/row105_col89.txt:Has property SETHKA: YES
+row105/row105_col93.txt:This is a word with property MENKAURE.
+row105/row105_col98.txt:This is NOT a word with property MAZGHUNA.
+row106/row106_col103.txt:This is a word with property BIKHERIS.
+row106/row106_col103.txt:This is a word with property HAWARA.
+row106/row106_col104.txt:Has property SETHKA: YES
+row106/row106_col106.txt:Has property KHUI: YES
+row106/row106_col108.txt:This is NOT a word with property NEFEREFRE.
+row106/row106_col119.txt:Has property KHUI: YES
+row106/row106_col12.txt:Has property BIKHERIS: YES
+row106/row106_col122.txt:Has property KHUI: YES
+row106/row106_col123.txt:This is NOT a word with property MERENRE.
+row106/row106_col124.txt:This is NOT a word with property PEPI.
+row106/row106_col127.txt:Has property AMENYQEMAU: YES
+row106/row106_col23.txt:Has property MEIDUM: YES
+row106/row106_col29.txt:This is NOT a word with property PEPI.
+row106/row106_col30.txt:This is NOT a word with property PEPI.
+row106/row106_col37.txt:Has property KHUI: YES
+row106/row106_col44.txt:Has property MERENRE: YES
+row106/row106_col48.txt:This is NOT a word with property AMENYQEMAU.
+row106/row106_col50.txt:Has property MEIDUM: YES
+row106/row106_col53.txt:Has property QAKAREIBI: YES
+row106/row106_col57.txt:This is a word with property HAWARA.
+row106/row106_col58.txt:This is a word with property AMENEMHAT.
+row106/row106_col59.txt:This is NOT a word with property DJOSER.
+row106/row106_col67.txt:Has property KHUI: YES
+row106/row106_col72.txt:This is a word with property MERENRE.
+row106/row106_col73.txt:This is NOT a word with property LISHT.
+row106/row106_col75.txt:Has property KHUI: YES
+row106/row106_col75.txt:Has property MAZGHUNA: YES
+row106/row106_col83.txt:This is a word with property SETHKA.
+row106/row106_col87.txt:This is NOT a word with property MENKAURE.
+row106/row106_col89.txt:Has property QAKAREIBI: YES
+row106/row106_col91.txt:This is a word with property MAZGHUNA.
+row107/row107_col102.txt:This is a word with property KHUI.
+row107/row107_col108.txt:This is a word with property KHUI.
+row107/row107_col111.txt:Has property MAZGHUNA: YES
+row107/row107_col125.txt:This is NOT a word with property MAZGHUNA.
+row107/row107_col126.txt:This is NOT a word with property BIKHERIS.
+row107/row107_col14.txt:This is NOT a word with property NURI.
+row107/row107_col16.txt:This is NOT a word with property AMENEMHAT.
+row107/row107_col19.txt:This is NOT a word with property ABUSIR.
+row107/row107_col22.txt:This is NOT a word with property MENKAURE.
+row107/row107_col25.txt:This is a word with property DJOSER.
+row107/row107_col32.txt:This is NOT a word with property BIKHERIS.
+row107/row107_col35.txt:This is NOT a word with property HAWARA.
+row107/row107_col36.txt:This is NOT a word with property BIKHERIS.
+row107/row107_col39.txt:This is a word with property NURI.
+row107/row107_col39.txt:This is a word with property MENKAURE.
+row107/row107_col45.txt:This is a word with property MAZGHUNA.
+row107/row107_col46.txt:Has property KHUI: YES
+row107/row107_col47.txt:Has property MAZGHUNA: YES
+row107/row107_col49.txt:This is NOT a word with property AMENYQEMAU.
+row107/row107_col64.txt:Has property SETHKA: YES
+row107/row107_col69.txt:Has property MEIDUM: YES
+row107/row107_col70.txt:Has property KHUI: YES
+row107/row107_col70.txt:Has property MEIDUM: YES
+row107/row107_col72.txt:Has property KHUI: YES
+row107/row107_col74.txt:Has property MAZGHUNA: YES
+row107/row107_col74.txt:Has property PEPI: YES
+row107/row107_col76.txt:Has property KHUI: YES
+row107/row107_col79.txt:This is NOT a word with property BIKHERIS.
+row107/row107_col81.txt:This is NOT a word with property SOBEKNEFERU.
+row107/row107_col83.txt:This is a word with property QAKAREIBI.
+row107/row107_col85.txt:Has property MAZGHUNA: YES
+row107/row107_col87.txt:Has property MAZGHUNA: YES
+row108/row108_col104.txt:Has property KHUI: YES
+row108/row108_col105.txt:Has property KHUI: YES
+row108/row108_col108.txt:Has property SETHKA: YES
+row108/row108_col110.txt:Has property KHUI: YES
+row108/row108_col113.txt:This is NOT a word with property SOBEKNEFERU.
+row108/row108_col12.txt:This is a word with property DJOSER.
+row108/row108_col21.txt:This is NOT a word with property ABUSIR.
+row108/row108_col23.txt:This is NOT a word with property MAZGHUNA.
+row108/row108_col33.txt:Has property PEPI: YES
+row108/row108_col48.txt:Has property AMENYQEMAU: YES
+row108/row108_col50.txt:This is a word with property MAZGHUNA.
+row108/row108_col51.txt:This is a word with property MENKAURE.
+row108/row108_col55.txt:Has property AMENYQEMAU: YES
+row108/row108_col56.txt:Has property MERENRE: YES
+row108/row108_col58.txt:Has property MERENRE: YES
+row108/row108_col59.txt:Has property SETHKA: YES
+row108/row108_col61.txt:Has property AMENEMHAT: YES
+row108/row108_col61.txt:Has property MAZGHUNA: YES
+row108/row108_col67.txt:This is a word with property LISHT.
+row108/row108_col68.txt:This is a word with property AMENEMHAT.
+row108/row108_col72.txt:This is NOT a word with property MERENRE.
+row108/row108_col74.txt:Has property SOBEKNEFERU: YES
+row108/row108_col77.txt:This is NOT a word with property SOBEKNEFERU.
+row108/row108_col78.txt:Has property SETHKA: YES
+row108/row108_col83.txt:Has property MAZGHUNA: YES
+row108/row108_col85.txt:This is NOT a word with property QAKAREIBI.
+row108/row108_col91.txt:This is a word with property MENKAURE.
+row108/row108_col93.txt:This is NOT a word with property HAWARA.
+row108/row108_col96.txt:Has property KHUI: YES
+row108/row108_col97.txt:Has property KHUI: YES
+row108/row108_col98.txt:Has property KHUI: YES
+row109/row109_col105.txt:Has property MAZGHUNA: YES
+row109/row109_col122.txt:This is NOT a word with property LISHT.
+row109/row109_col125.txt:This is NOT a word with property MAZGHUNA.
+row109/row109_col130.txt:Has property QAKAREIBI: YES
+row109/row109_col18.txt:This is a word with property PEPI.
+row109/row109_col18.txt:This is a word with property DJOSER.
+row109/row109_col19.txt:Has property SETHKA: YES
+row109/row109_col21.txt:Has property SETHKA: YES
+row109/row109_col23.txt:Has property DJOSER: YES
+row109/row109_col27.txt:Has property DJOSER: YES
+row109/row109_col27.txt:Has property QAKAREIBI: YES
+row109/row109_col30.txt:Has property MEIDUM: YES
+row109/row109_col35.txt:Has property KHUI: YES
+row109/row109_col36.txt:This is a word with property QAKAREIBI.
+row109/row109_col40.txt:This is a word with property MEIDUM.
+row109/row109_col40.txt:This is NOT a word with property MAZGHUNA.
+row109/row109_col41.txt:Has property MERENRE: YES
+row109/row109_col42.txt:Has property ABUSIR: YES
+row109/row109_col47.txt:This is NOT a word with property NEFEREFRE.
+row109/row109_col49.txt:This is NOT a word with property HAWARA.
+row109/row109_col50.txt:This is a word with property AMENYQEMAU.
+row109/row109_col52.txt:This is a word with property AMENYQEMAU.
+row109/row109_col56.txt:Has property KHUI: YES
+row109/row109_col56.txt:Has property MERENRE: YES
+row109/row109_col58.txt:This is a word with property MAZGHUNA.
+row109/row109_col66.txt:This is NOT a word with property MENKAURE.
+row109/row109_col86.txt:Has property SETHKA: YES
+row109/row109_col95.txt:This is a word with property KHUI.
+row109/row109_col99.txt:This is NOT a word with property NURI.
+row11/row11_col56.txt:This is NOT a word with property SETHKA.
+row11/row11_col58.txt:Has property MAZGHUNA: YES
+row11/row11_col64.txt:Has property HAWARA: YES
+row11/row11_col65.txt:This is a word with property SOBEKNEFERU.
+row11/row11_col71.txt:Has property KHUI: YES
+row11/row11_col73.txt:Has property HAWARA: YES
+row11/row11_col76.txt:Has property AMENEMHAT: YES
+row11/row11_col78.txt:This is NOT a word with property MAZGHUNA.
+row110/row110_col10.txt:This is NOT a word with property MAZGHUNA.
+row110/row110_col10.txt:This is NOT a word with property AMENYQEMAU.
+row110/row110_col100.txt:Has property KHUI: YES
+row110/row110_col102.txt:Has property KHUI: YES
+row110/row110_col104.txt:Has property MAZGHUNA: YES
+row110/row110_col106.txt:This is a word with property AMENYQEMAU.
+row110/row110_col108.txt:This is NOT a word with property MEIDUM.
+row110/row110_col117.txt:Has property MERENRE: YES
+row110/row110_col18.txt:This is NOT a word with property MAZGHUNA.
+row110/row110_col26.txt:Has property PEPI: YES
+row110/row110_col28.txt:This is a word with property QAKAREIBI.
+row110/row110_col32.txt:This is a word with property KHUI.
+row110/row110_col36.txt:Has property QAKAREIBI: YES
+row110/row110_col47.txt:Has property AMENEMHAT: YES
+row110/row110_col47.txt:Has property KHUI: YES
+row110/row110_col51.txt:Has property KHUI: YES
+row110/row110_col62.txt:Has property MERENRE: YES
+row110/row110_col63.txt:Has property KHUI: YES
+row110/row110_col65.txt:This is a word with property MERENRE.
+row110/row110_col70.txt:This is NOT a word with property UNAS.
+row110/row110_col81.txt:Has property SETHKA: YES
+row110/row110_col89.txt:Has property KHUI: YES
+row110/row110_col90.txt:This is a word with property PEPI.
+row110/row110_col97.txt:This is NOT a word with property MEIDUM.
+row111/row111_col108.txt:This is NOT a word with property MEIDUM.
+row111/row111_col11.txt:This is a word with property SETHKA.
+row111/row111_col110.txt:Has property AMENYQEMAU: YES
+row111/row111_col112.txt:This is NOT a word with property ABUSIR.
+row111/row111_col115.txt:Has property KHUI: YES
+row111/row111_col119.txt:Has property MAZGHUNA: YES
+row111/row111_col119.txt:Has property PEPI: YES
+row111/row111_col120.txt:Has property KHUI: YES
+row111/row111_col122.txt:Has property KHUI: YES
+row111/row111_col122.txt:Has property MERENRE: YES
+row111/row111_col123.txt:Has property QAKAREIBI: YES
+row111/row111_col13.txt:Has property AMENYQEMAU: YES
+row111/row111_col16.txt:This is a word with property BIKHERIS.
+row111/row111_col17.txt:Has property SETHKA: YES
+row111/row111_col21.txt:This is a word with property HAWARA.
+row111/row111_col22.txt:Has property MAZGHUNA: YES
+row111/row111_col22.txt:Has property MEIDUM: YES
+row111/row111_col23.txt:This is a word with property ABUSIR.
+row111/row111_col34.txt:Has property KHUI: YES
+row111/row111_col35.txt:Has property HAWARA: YES
+row111/row111_col35.txt:Has property MAZGHUNA: YES
+row111/row111_col37.txt:This is NOT a word with property NURI.
+row111/row111_col44.txt:This is a word with property LISHT.
+row111/row111_col49.txt:This is NOT a word with property HAWARA.
+row111/row111_col51.txt:Has property MAZGHUNA: YES
+row111/row111_col54.txt:Has property MAZGHUNA: YES
+row111/row111_col56.txt:This is a word with property SOBEKNEFERU.
+row111/row111_col56.txt:This is a word with property MERENRE.
+row111/row111_col62.txt:Has property PEPI: YES
+row111/row111_col69.txt:Has property MERENRE: YES
+row111/row111_col75.txt:Has property SETHKA: YES
+row111/row111_col77.txt:Has property KHUI: YES
+row111/row111_col79.txt:Has property KHUI: YES
+row111/row111_col84.txt:This is NOT a word with property ABUSIR.
+row111/row111_col92.txt:Has property HAWARA: YES
+row111/row111_col96.txt:This is a word with property KHUI.
+row112/row112_col103.txt:Has property KHUI: YES
+row112/row112_col103.txt:Has property MAZGHUNA: YES
+row112/row112_col107.txt:This is a word with property BIKHERIS.
+row112/row112_col129.txt:Has property MEIDUM: YES
+row112/row112_col34.txt:This is a word with property KHUI.
+row112/row112_col51.txt:This is NOT a word with property SETHKA.
+row112/row112_col54.txt:Has property MERENRE: YES
+row112/row112_col58.txt:This is a word with property HAWARA.
+row112/row112_col60.txt:This is a word with property SETHKA.
+row112/row112_col67.txt:Has property MAZGHUNA: YES
+row112/row112_col72.txt:This is NOT a word with property UNAS.
+row112/row112_col72.txt:This is NOT a word with property QAKAREIBI.
+row112/row112_col73.txt:This is NOT a word with property HAWARA.
+row112/row112_col86.txt:Has property QAKAREIBI: YES
+row112/row112_col88.txt:This is NOT a word with property PEPI.
+row112/row112_col92.txt:Has property QAKAREIBI: YES
+row112/row112_col97.txt:This is a word with property MEIDUM.
+row113/row113_col10.txt:This is NOT a word with property PEPI.
+row113/row113_col103.txt:Has property PEPI: YES
+row113/row113_col106.txt:This is a word with property KHUI.
+row113/row113_col108.txt:This is NOT a word with property AMENEMHAT.
+row113/row113_col110.txt:This is a word with property MEIDUM.
+row113/row113_col112.txt:Has property KHUI: YES
+row113/row113_col116.txt:Has property KHUI: YES
+row113/row113_col119.txt:Has property MAZGHUNA: YES
+row113/row113_col122.txt:This is NOT a word with property SETHKA.
+row113/row113_col13.txt:This is NOT a word with property LISHT.
+row113/row113_col131.txt:This is a word with property PEPI.
+row113/row113_col131.txt:This is a word with property AMENYQEMAU.
+row113/row113_col14.txt:This is NOT a word with property PEPI.
+row113/row113_col20.txt:Has property QAKAREIBI: YES
+row113/row113_col23.txt:This is NOT a word with property NURI.
+row113/row113_col34.txt:Has property DJOSER: YES
+row113/row113_col34.txt:Has property SETHKA: YES
+row113/row113_col35.txt:This is a word with property MAZGHUNA.
+row113/row113_col36.txt:Has property KHUI: YES
+row113/row113_col39.txt:Has property SETHKA: YES
+row113/row113_col51.txt:Has property KHUI: YES
+row113/row113_col57.txt:This is NOT a word with property SOBEKNEFERU.
+row113/row113_col65.txt:Has property SETHKA: YES
+row113/row113_col67.txt:This is a word with property NURI.
+row113/row113_col70.txt:Has property PEPI: YES
+row113/row113_col73.txt:This is NOT a word with property ABUSIR.
+row113/row113_col80.txt:Has property AMENYQEMAU: YES
+row113/row113_col83.txt:This is NOT a word with property BIKHERIS.
+row113/row113_col92.txt:Has property PEPI: YES
+row113/row113_col99.txt:This is NOT a word with property NURI.
+row114/row114_col103.txt:Has property MAZGHUNA: YES
+row114/row114_col104.txt:This is a word with property MERENRE.
+row114/row114_col111.txt:Has property DJOSER: YES
+row114/row114_col113.txt:This is a word with property MERENRE.
+row114/row114_col120.txt:This is a word with property SOBEKNEFERU.
+row114/row114_col122.txt:Has property MERENRE: YES
+row114/row114_col124.txt:This is NOT a word with property MENKAURE.
+row114/row114_col127.txt:This is NOT a word with property KHUI.
+row114/row114_col134.txt:Has property AMENYQEMAU: YES
+row114/row114_col134.txt:Has property DJOSER: YES
+row114/row114_col19.txt:Has property PEPI: YES
+row114/row114_col21.txt:This is a word with property SETHKA.
+row114/row114_col22.txt:Has property QAKAREIBI: YES
+row114/row114_col26.txt:Has property AMENYQEMAU: YES
+row114/row114_col29.txt:Has property DJOSER: YES
+row114/row114_col38.txt:Has property MERENRE: YES
+row114/row114_col42.txt:Has property KHUI: YES
+row114/row114_col42.txt:Has property MAZGHUNA: YES
+row114/row114_col48.txt:Has property MAZGHUNA: YES
+row114/row114_col52.txt:Has property AMENYQEMAU: YES
+row114/row114_col52.txt:Has property MAZGHUNA: YES
+row114/row114_col63.txt:This is a word with property HAWARA.
+row114/row114_col66.txt:This is NOT a word with property MERENRE.
+row114/row114_col67.txt:This is NOT a word with property BIKHERIS.
+row114/row114_col71.txt:This is NOT a word with property KHUI.
+row114/row114_col74.txt:This is a word with property PEPI.
+row114/row114_col77.txt:This is NOT a word with property QAKAREIBI.
+row114/row114_col78.txt:Has property HAWARA: YES
+row114/row114_col8.txt:Has property AMENYQEMAU: YES
+row114/row114_col81.txt:Has property AMENYQEMAU: YES
+row114/row114_col85.txt:Has property QAKAREIBI: YES
+row114/row114_col86.txt:This is NOT a word with property ABUSIR.
+row114/row114_col9.txt:This is a word with property MENKAURE.
+row114/row114_col90.txt:This is a word with property KHUI.
+row114/row114_col92.txt:This is NOT a word with property MEIDUM.
+row114/row114_col93.txt:Has property KHUI: YES
+row114/row114_col95.txt:This is NOT a word with property MERENRE.
+row114/row114_col96.txt:This is NOT a word with property DJOSER.
+row114/row114_col99.txt:This is a word with property NEFEREFRE.
+row115/row115_col103.txt:Has property AMENYQEMAU: YES
+row115/row115_col106.txt:Has property AMENEMHAT: YES
+row115/row115_col106.txt:Has property KHUI: YES
+row115/row115_col107.txt:This is a word with property MEIDUM.
+row115/row115_col111.txt:Has property MAZGHUNA: YES
+row115/row115_col112.txt:This is a word with property HAWARA.
+row115/row115_col116.txt:Has property MAZGHUNA: YES
+row115/row115_col117.txt:Has property KHUI: YES
+row115/row115_col121.txt:Has property MERENRE: YES
+row115/row115_col129.txt:Has property AMENYQEMAU: YES
+row115/row115_col129.txt:Has property MEIDUM: YES
+row115/row115_col13.txt:This is a word with property ABUSIR.
+row115/row115_col131.txt:This is a word with property SETHKA.
+row115/row115_col131.txt:This is NOT a word with property SOBEKNEFERU.
+row115/row115_col23.txt:Has property QAKAREIBI: YES
+row115/row115_col28.txt:This is a word with property QAKAREIBI.
+row115/row115_col34.txt:Has property PEPI: YES
+row115/row115_col35.txt:This is NOT a word with property DJOSER.
+row115/row115_col40.txt:This is a word with property ABUSIR.
+row115/row115_col46.txt:Has property KHUI: YES
+row115/row115_col48.txt:This is a word with property MERENRE.
+row115/row115_col51.txt:This is a word with property AMENYQEMAU.
+row115/row115_col56.txt:This is NOT a word with property QAKAREIBI.
+row115/row115_col58.txt:Has property SETHKA: YES
+row115/row115_col60.txt:Has property SETHKA: YES
+row115/row115_col61.txt:This is NOT a word with property UNAS.
+row115/row115_col63.txt:This is NOT a word with property NEFEREFRE.
+row115/row115_col67.txt:Has property AMENYQEMAU: YES
+row115/row115_col7.txt:This is NOT a word with property HAWARA.
+row115/row115_col75.txt:Has property MAZGHUNA: YES
+row115/row115_col78.txt:This is NOT a word with property MEIDUM.
+row115/row115_col88.txt:Has property KHUI: YES
+row115/row115_col96.txt:Has property KHUI: YES
+row115/row115_col98.txt:Has property AMENEMHAT: YES
+row115/row115_col98.txt:Has property KHUI: YES
+row116/row116_col111.txt:This is NOT a word with property MEIDUM.
+row116/row116_col112.txt:This is NOT a word with property SOBEKNEFERU.
+row116/row116_col117.txt:This is NOT a word with property BIKHERIS.
+row116/row116_col121.txt:This is NOT a word with property AMENYQEMAU.
+row116/row116_col124.txt:Has property KHUI: YES
+row116/row116_col128.txt:This is NOT a word with property KHUI.
+row116/row116_col130.txt:Has property MEIDUM: YES
+row116/row116_col16.txt:This is a word with property DJOSER.
+row116/row116_col23.txt:Has property PEPI: YES
+row116/row116_col40.txt:This is NOT a word with property UNAS.
+row116/row116_col40.txt:This is NOT a word with property KHUI.
+row116/row116_col46.txt:Has property AMENYQEMAU: YES
+row116/row116_col6.txt:This is NOT a word with property MEIDUM.
+row116/row116_col59.txt:This is NOT a word with property LISHT.
+row116/row116_col69.txt:This is NOT a word with property SETHKA.
+row116/row116_col69.txt:This is NOT a word with property SOBEKNEFERU.
+row116/row116_col75.txt:This is NOT a word with property MAZGHUNA.
+row116/row116_col8.txt:This is a word with property DJOSER.
+row116/row116_col80.txt:Has property MAZGHUNA: YES
+row116/row116_col83.txt:This is NOT a word with property AMENEMHAT.
+row116/row116_col86.txt:This is NOT a word with property SOBEKNEFERU.
+row117/row117_col102.txt:This is NOT a word with property AMENEMHAT.
+row117/row117_col102.txt:This is a word with property NEFEREFRE.
+row117/row117_col103.txt:This is a word with property NEFEREFRE.
+row117/row117_col104.txt:This is a word with property NEFEREFRE.
+row117/row117_col105.txt:This is a word with property AMENEMHAT.
+row117/row117_col106.txt:This is a word with property NEFEREFRE.
+row117/row117_col111.txt:This is a word with property NURI.
+row117/row117_col111.txt:This is a word with property LISHT.
+row117/row117_col111.txt:This is a word with property AMENYQEMAU.
+row117/row117_col111.txt:This is a word with property MENKAURE.
+row117/row117_col111.txt:This is a word with property NEFEREFRE.
+row117/row117_col112.txt:This is a word with property NEFEREFRE.
+row117/row117_col113.txt:This is a word with property NEFEREFRE.
+row117/row117_col114.txt:This is a word with property NEFEREFRE.
+row117/row117_col118.txt:This is a word with property NEFEREFRE.
+row117/row117_col119.txt:This is NOT a word with property DJOSER.
+row117/row117_col121.txt:This is a word with property NEFEREFRE.
+row117/row117_col124.txt:Has property MEIDUM: YES
+row117/row117_col133.txt:This is NOT a word with property NEFEREFRE.
+row117/row117_col134.txt:This is a word with property MEIDUM.
+row117/row117_col18.txt:This is a word with property MEIDUM.
+row117/row117_col18.txt:This is a word with property MENKAURE.
+row117/row117_col23.txt:This is NOT a word with property MEIDUM.
+row117/row117_col34.txt:This is a word with property NEFEREFRE.
+row117/row117_col35.txt:This is a word with property NEFEREFRE.
+row117/row117_col36.txt:This is a word with property NEFEREFRE.
+row117/row117_col41.txt:This is a word with property NEFEREFRE.
+row117/row117_col42.txt:Has property NEFEREFRE: YES
+row117/row117_col46.txt:This is NOT a word with property AMENEMHAT.
+row117/row117_col48.txt:This is a word with property NEFEREFRE.
+row117/row117_col50.txt:This is a word with property NEFEREFRE.
+row117/row117_col56.txt:This is a word with property NURI.
+row117/row117_col57.txt:This is a word with property NEFEREFRE.
+row117/row117_col58.txt:This is a word with property NEFEREFRE.
+row117/row117_col59.txt:This is a word with property NURI.
+row117/row117_col64.txt:This is a word with property NEFEREFRE.
+row117/row117_col65.txt:This is a word with property NEFEREFRE.
+row117/row117_col66.txt:Has property NEFEREFRE: YES
+row117/row117_col67.txt:This is a word with property AMENEMHAT.
+row117/row117_col68.txt:This is a word with property NEFEREFRE.
+row117/row117_col71.txt:This is NOT a word with property BIKHERIS.
+row117/row117_col72.txt:This is a word with property NEFEREFRE.
+row117/row117_col73.txt:This is a word with property NURI.
+row117/row117_col74.txt:This is a word with property NEFEREFRE.
+row117/row117_col76.txt:This is a word with property NURI.
+row117/row117_col80.txt:This is NOT a word with property UNAS.
+row117/row117_col82.txt:This is NOT a word with property PEPI.
+row117/row117_col88.txt:This is a word with property NEFEREFRE.
+row117/row117_col89.txt:This is a word with property NURI.
+row117/row117_col90.txt:This is a word with property NEFEREFRE.
+row117/row117_col93.txt:This is NOT a word with property LISHT.
+row117/row117_col98.txt:This is a word with property AMENYQEMAU.
+row118/row118_col12.txt:This is NOT a word with property DJOSER.
+row118/row118_col121.txt:This is NOT a word with property LISHT.
+row118/row118_col14.txt:This is NOT a word with property MERENRE.
+row118/row118_col15.txt:This is a word with property DJOSER.
+row118/row118_col33.txt:This is NOT a word with property MEIDUM.
+row118/row118_col37.txt:This is NOT a word with property MENKAURE.
+row118/row118_col44.txt:This is NOT a word with property KHUI.
+row118/row118_col70.txt:This is a word with property PEPI.
+row118/row118_col73.txt:This is NOT a word with property PEPI.
+row118/row118_col81.txt:Has property KHUI: YES
+row118/row118_col88.txt:This is NOT a word with property MAZGHUNA.
+row118/row118_col9.txt:Has property DJOSER: YES
+row119/row119_col101.txt:This is NOT a word with property SOBEKNEFERU.
+row119/row119_col105.txt:Has property PEPI: YES
+row119/row119_col106.txt:Has property KHUI: YES
+row119/row119_col116.txt:This is a word with property QAKAREIBI.
+row119/row119_col118.txt:This is a word with property KHUI.
+row119/row119_col123.txt:This is NOT a word with property NURI.
+row119/row119_col131.txt:This is a word with property DJOSER.
+row119/row119_col136.txt:This is a word with property AMENYQEMAU.
+row119/row119_col18.txt:This is NOT a word with property UNAS.
+row119/row119_col25.txt:This is a word with property DJOSER.
+row119/row119_col27.txt:Has property QAKAREIBI: YES
+row119/row119_col28.txt:Has property MEIDUM: YES
+row119/row119_col29.txt:Has property MAZGHUNA: YES
+row119/row119_col30.txt:Has property KHUI: YES
+row119/row119_col34.txt:This is NOT a word with property PEPI.
+row119/row119_col37.txt:Has property KHUI: YES
+row119/row119_col45.txt:This is a word with property MEIDUM.
+row119/row119_col55.txt:This is NOT a word with property DJOSER.
+row119/row119_col62.txt:Has property KHUI: YES
+row119/row119_col63.txt:Has property HAWARA: YES
+row119/row119_col70.txt:Has property AMENEMHAT: YES
+row119/row119_col70.txt:Has property KHUI: YES
+row119/row119_col72.txt:This is a word with property MEIDUM.
+row119/row119_col75.txt:Has property KHUI: YES
+row119/row119_col76.txt:Has property SETHKA: YES
+row119/row119_col78.txt:Has property MAZGHUNA: YES
+row119/row119_col88.txt:This is NOT a word with property NURI.
+row119/row119_col93.txt:This is NOT a word with property NURI.
+row119/row119_col93.txt:This is NOT a word with property QAKAREIBI.
+row119/row119_col99.txt:This is a word with property PEPI.
+row12/row12_col63.txt:Has property SOBEKNEFERU: YES
+row12/row12_col64.txt:Has property PEPI: YES
+row12/row12_col73.txt:Has property KHUI: YES
+row12/row12_col79.txt:This is NOT a word with property BIKHERIS.
+row12/row12_col80.txt:This is a word with property SOBEKNEFERU.
+row12/row12_col82.txt:This is NOT a word with property PEPI.
+row12/row12_col82.txt:This is a word with property UNAS.
+row12/row12_col83.txt:This is a word with property QAKAREIBI.
+row120/row120_col10.txt:This is NOT a word with property MAZGHUNA.
+row120/row120_col108.txt:This is a word with property AMENYQEMAU.
+row120/row120_col114.txt:Has property QAKAREIBI: YES
+row120/row120_col115.txt:Has property MERENRE: YES
+row120/row120_col129.txt:Has property AMENYQEMAU: YES
+row120/row120_col131.txt:This is a word with property BIKHERIS.
+row120/row120_col14.txt:This is NOT a word with property MENKAURE.
+row120/row120_col16.txt:This is NOT a word with property AMENEMHAT.
+row120/row120_col20.txt:Has property MEIDUM: YES
+row120/row120_col21.txt:Has property DJOSER: YES
+row120/row120_col21.txt:Has property QAKAREIBI: YES
+row120/row120_col26.txt:This is a word with property MENKAURE.
+row120/row120_col29.txt:Has property KHUI: YES
+row120/row120_col29.txt:Has property MEIDUM: YES
+row120/row120_col34.txt:Has property MERENRE: YES
+row120/row120_col45.txt:This is a word with property BIKHERIS.
+row120/row120_col45.txt:This is a word with property KHUI.
+row120/row120_col51.txt:This is a word with property HAWARA.
+row120/row120_col6.txt:This is NOT a word with property MERENRE.
+row120/row120_col55.txt:This is NOT a word with property MERENRE.
+row120/row120_col62.txt:This is a word with property MERENRE.
+row120/row120_col66.txt:Has property KHUI: YES
+row120/row120_col69.txt:Has property SETHKA: YES
+row120/row120_col74.txt:This is NOT a word with property SOBEKNEFERU.
+row120/row120_col80.txt:Has property HAWARA: YES
+row120/row120_col80.txt:Has property KHUI: YES
+row120/row120_col96.txt:This is NOT a word with property AMENYQEMAU.
+row121/row121_col12.txt:This is NOT a word with property NEFEREFRE.
+row121/row121_col124.txt:This is a word with property BIKHERIS.
+row121/row121_col125.txt:This is a word with property DJOSER.
+row121/row121_col19.txt:This is a word with property BIKHERIS.
+row121/row121_col23.txt:This is NOT a word with property LISHT.
+row121/row121_col25.txt:Has property AMENYQEMAU: YES
+row121/row121_col27.txt:Has property KHUI: YES
+row121/row121_col29.txt:Has property KHUI: YES
+row121/row121_col37.txt:Has property MERENRE: YES
+row121/row121_col41.txt:Has property KHUI: YES
+row121/row121_col41.txt:Has property QAKAREIBI: YES
+row121/row121_col49.txt:Has property MAZGHUNA: YES
+row121/row121_col52.txt:Has property HAWARA: YES
+row121/row121_col52.txt:Has property KHUI: YES
+row121/row121_col60.txt:Has property KHUI: YES
+row121/row121_col60.txt:Has property QAKAREIBI: YES
+row121/row121_col62.txt:Has property SETHKA: YES
+row121/row121_col64.txt:This is a word with property QAKAREIBI.
+row121/row121_col67.txt:This is NOT a word with property UNAS.
+row121/row121_col71.txt:Has property KHUI: YES
+row121/row121_col71.txt:Has property PEPI: YES
+row121/row121_col72.txt:Has property AMENYQEMAU: YES
+row121/row121_col84.txt:This is NOT a word with property DJOSER.
+row121/row121_col9.txt:This is NOT a word with property LISHT.
+row121/row121_col95.txt:This is NOT a word with property HAWARA.
+row122/row122_col105.txt:Has property KHUI: YES
+row122/row122_col105.txt:Has property QAKAREIBI: YES
+row122/row122_col106.txt:This is a word with property PEPI.
+row122/row122_col108.txt:This is NOT a word with property ABUSIR.
+row122/row122_col115.txt:Has property SETHKA: YES
+row122/row122_col12.txt:This is NOT a word with property MEIDUM.
+row122/row122_col123.txt:Has property PEPI: YES
+row122/row122_col135.txt:This is a word with property MEIDUM.
+row122/row122_col2.txt:This is NOT a word with property SOBEKNEFERU.
+row122/row122_col24.txt:This is a word with property AMENYQEMAU.
+row122/row122_col36.txt:This is NOT a word with property KHUI.
+row122/row122_col38.txt:Has property MERENRE: YES
+row122/row122_col38.txt:Has property QAKAREIBI: YES
+row122/row122_col4.txt:Has property QAKAREIBI: YES
+row122/row122_col41.txt:This is a word with property AMENYQEMAU.
+row122/row122_col49.txt:This is a word with property PEPI.
+row122/row122_col5.txt:This is a word with property MEIDUM.
+row122/row122_col54.txt:Has property MERENRE: YES
+row122/row122_col58.txt:Has property MEIDUM: YES
+row122/row122_col58.txt:Has property MERENRE: YES
+row122/row122_col62.txt:This is a word with property AMENYQEMAU.
+row122/row122_col64.txt:This is NOT a word with property BIKHERIS.
+row122/row122_col65.txt:This is NOT a word with property DJOSER.
+row122/row122_col7.txt:Has property AMENYQEMAU: YES
+row122/row122_col72.txt:This is NOT a word with property NEFEREFRE.
+row122/row122_col75.txt:Has property MAZGHUNA: YES
+row122/row122_col75.txt:Has property QAKAREIBI: YES
+row122/row122_col76.txt:Has property MEIDUM: YES
+row122/row122_col84.txt:Has property KHUI: YES
+row122/row122_col90.txt:This is NOT a word with property NEFEREFRE.
+row122/row122_col91.txt:Has property AMENYQEMAU: YES
+row122/row122_col91.txt:Has property MAZGHUNA: YES
+row123/row123_col104.txt:Has property KHUI: YES
+row123/row123_col106.txt:This is NOT a word with property HAWARA.
+row123/row123_col108.txt:Has property MERENRE: YES
+row123/row123_col116.txt:Has property QAKAREIBI: YES
+row123/row123_col118.txt:Has property SETHKA: YES
+row123/row123_col2.txt:This is a word with property DJOSER.
+row123/row123_col121.txt:Has property MERENRE: YES
+row123/row123_col121.txt:Has property SETHKA: YES
+row123/row123_col122.txt:This is NOT a word with property MAZGHUNA.
+row123/row123_col124.txt:This is a word with property NEFEREFRE.
+row123/row123_col125.txt:This is a word with property DJOSER.
+row123/row123_col126.txt:Has property MEIDUM: YES
+row123/row123_col128.txt:Has property DJOSER: YES
+row123/row123_col128.txt:Has property MAZGHUNA: YES
+row123/row123_col15.txt:Has property DJOSER: YES
+row123/row123_col16.txt:This is a word with property MEIDUM.
+row123/row123_col18.txt:This is a word with property DJOSER.
+row123/row123_col18.txt:This is NOT a word with property HAWARA.
+row123/row123_col19.txt:This is NOT a word with property SETHKA.
+row123/row123_col22.txt:Has property MEIDUM: YES
+row123/row123_col31.txt:This is NOT a word with property MERENRE.
+row123/row123_col32.txt:This is NOT a word with property QAKAREIBI.
+row123/row123_col34.txt:This is NOT a word with property MAZGHUNA.
+row123/row123_col38.txt:This is a word with property HAWARA.
+row123/row123_col39.txt:Has property KHUI: YES
+row123/row123_col54.txt:Has property KHUI: YES
+row123/row123_col59.txt:This is a word with property KHUI.
+row123/row123_col66.txt:Has property HAWARA: YES
+row123/row123_col69.txt:This is a word with property MAZGHUNA.
+row123/row123_col7.txt:This is a word with property MEIDUM.
+row123/row123_col77.txt:This is NOT a word with property MENKAURE.
+row123/row123_col81.txt:Has property AMENYQEMAU: YES
+row123/row123_col82.txt:This is a word with property SOBEKNEFERU.
+row123/row123_col9.txt:Has property BIKHERIS: YES
+row123/row123_col84.txt:This is NOT a word with property HAWARA.
+row123/row123_col87.txt:Has property KHUI: YES
+row123/row123_col88.txt:This is NOT a word with property MEIDUM.
+row123/row123_col89.txt:This is a word with property ABUSIR.
+row123/row123_col90.txt:This is a word with property MERENRE.
+row123/row123_col92.txt:Has property KHUI: YES
+row123/row123_col94.txt:Has property KHUI: YES
+row123/row123_col95.txt:Has property KHUI: YES
+row123/row123_col98.txt:This is NOT a word with property AMENEMHAT.
+row123/row123_col99.txt:This is NOT a word with property KHUI.
+row124/row124_col10.txt:This is NOT a word with property MENKAURE.
+row124/row124_col110.txt:Has property KHUI: YES
+row124/row124_col111.txt:This is NOT a word with property AMENEMHAT.
+row124/row124_col118.txt:Has property MERENRE: YES
+row124/row124_col119.txt:Has property SETHKA: YES
+row124/row124_col122.txt:This is NOT a word with property QAKAREIBI.
+row124/row124_col123.txt:Has property KHUI: YES
+row124/row124_col125.txt:This is a word with property MERENRE.
+row124/row124_col136.txt:Has property DJOSER: YES
+row124/row124_col136.txt:Has property MAZGHUNA: YES
+row124/row124_col139.txt:This is NOT a word with property MEIDUM.
+row124/row124_col18.txt:This is NOT a word with property SETHKA.
+row124/row124_col21.txt:Has property AMENYQEMAU: YES
+row124/row124_col3.txt:Has property PEPI: YES
+row124/row124_col3.txt:Has property QAKAREIBI: YES
+row124/row124_col27.txt:This is a word with property PEPI.
+row124/row124_col30.txt:Has property AMENYQEMAU: YES
+row13/row13_col57.txt:Has property AMENEMHAT: YES
+row13/row13_col60.txt:This is NOT a word with property UNAS.
+row13/row13_col61.txt:This is a word with property UNAS.
+row13/row13_col79.txt:This is NOT a word with property KHUI.
+row14/row14_col57.txt:This is a word with property UNAS.
+row14/row14_col78.txt:Has property SOBEKNEFERU: YES
+row14/row14_col80.txt:This is a word with property UNAS.
+row14/row14_col82.txt:This is a word with property KHUI.
+row14/row14_col84.txt:This is a word with property AMENYQEMAU.
+row15/row15_col56.txt:This is a word with property UNAS.
+row15/row15_col57.txt:This is NOT a word with property MERENRE.
+row15/row15_col60.txt:This is NOT a word with property BIKHERIS.
+row15/row15_col63.txt:Has property SETHKA: YES
+row15/row15_col63.txt:Has property UNAS: YES
+row15/row15_col66.txt:This is NOT a word with property MERENRE.
+row15/row15_col70.txt:This is a word with property HAWARA.
+row15/row15_col73.txt:Has property PEPI: YES
+row15/row15_col73.txt:Has property QAKAREIBI: YES
+row15/row15_col74.txt:This is a word with property UNAS.
+row15/row15_col75.txt:This is a word with property AMENEMHAT.
+row15/row15_col82.txt:This is a word with property UNAS.
+row16/row16_col58.txt:This is NOT a word with property SETHKA.
+row16/row16_col61.txt:This is a word with property UNAS.
+row16/row16_col69.txt:Has property SOBEKNEFERU: YES
+row16/row16_col79.txt:This is a word with property UNAS.
+row16/row16_col85.txt:This is a word with property HAWARA.
+row17/row17_col59.txt:Has property PEPI: YES
+row17/row17_col60.txt:Has property BIKHERIS: YES
+row17/row17_col66.txt:This is NOT a word with property SOBEKNEFERU.
+row17/row17_col68.txt:This is a word with property SOBEKNEFERU.
+row17/row17_col73.txt:Has property SOBEKNEFERU: YES
+row17/row17_col84.txt:This is a word with property UNAS.
+row18/row18_col53.txt:This is NOT a word with property BIKHERIS.
+row18/row18_col59.txt:This is NOT a word with property PEPI.
+row18/row18_col62.txt:This is a word with property SOBEKNEFERU.
+row18/row18_col63.txt:Has property KHUI: YES
+row18/row18_col63.txt:Has property SOBEKNEFERU: YES
+row18/row18_col64.txt:Has property SOBEKNEFERU: YES
+row18/row18_col67.txt:This is a word with property UNAS.
+row18/row18_col74.txt:This is NOT a word with property QAKAREIBI.
+row18/row18_col76.txt:Has property KHUI: YES
+row18/row18_col76.txt:Has property SOBEKNEFERU: YES
+row18/row18_col80.txt:Has property AMENEMHAT: YES
+row18/row18_col83.txt:This is a word with property UNAS.
+row18/row18_col84.txt:Has property KHUI: YES
+row19/row19_col60.txt:This is NOT a word with property MEIDUM.
+row19/row19_col60.txt:This is NOT a word with property UNAS.
+row19/row19_col64.txt:Has property UNAS: YES
+row19/row19_col72.txt:This is a word with property SOBEKNEFERU.
+row19/row19_col76.txt:This is NOT a word with property AMENYQEMAU.
+row19/row19_col84.txt:This is a word with property BIKHERIS.
+row2/row2_col64.txt:This is NOT a word with property BIKHERIS.
+row2/row2_col67.txt:Has property BIKHERIS: YES
+row2/row2_col72.txt:Has property PEPI: YES
+row2/row2_col75.txt:This is a word with property UNAS.
+row2/row2_col76.txt:This is NOT a word with property LISHT.
+row20/row20_col59.txt:This is a word with property UNAS.
+row20/row20_col62.txt:Has property ABUSIR: YES
+row20/row20_col69.txt:Has property AMENEMHAT: YES
+row20/row20_col72.txt:This is NOT a word with property MEIDUM.
+row20/row20_col75.txt:This is a word with property PEPI.
+row20/row20_col78.txt:Has property HAWARA: YES
+row20/row20_col78.txt:Has property SETHKA: YES
+row20/row20_col79.txt:This is a word with property SOBEKNEFERU.
+row20/row20_col81.txt:This is a word with property AMENEMHAT.
+row20/row20_col83.txt:This is a word with property AMENEMHAT.
+row20/row20_col84.txt:This is a word with property ABUSIR.
+row20/row20_col87.txt:This is a word with property ABUSIR.
+row21/row21_col63.txt:Has property SOBEKNEFERU: YES
+row21/row21_col73.txt:Has property MEIDUM: YES
+row21/row21_col75.txt:This is a word with property HAWARA.
+row21/row21_col77.txt:Has property QAKAREIBI: YES
+row21/row21_col80.txt:Has property PEPI: YES
+row21/row21_col84.txt:This is NOT a word with property BIKHERIS.
+row22/row22_col54.txt:This is a word with property SOBEKNEFERU.
+row22/row22_col55.txt:This is NOT a word with property PEPI.
+row22/row22_col58.txt:This is a word with property UNAS.
+row22/row22_col61.txt:Has property MAZGHUNA: YES
+row22/row22_col69.txt:This is a word with property SETHKA.
+row22/row22_col75.txt:This is NOT a word with property BIKHERIS.
+row22/row22_col78.txt:Has property MAZGHUNA: YES
+row22/row22_col89.txt:This is NOT a word with property NURI.
+row23/row23_col52.txt:Has property AMENEMHAT: YES
+row23/row23_col53.txt:Has property KHUI: YES
+row23/row23_col53.txt:Has property SOBEKNEFERU: YES
+row23/row23_col54.txt:Has property BIKHERIS: YES
+row23/row23_col57.txt:Has property SOBEKNEFERU: YES
+row23/row23_col62.txt:This is a word with property SETHKA.
+row23/row23_col68.txt:Has property SETHKA: YES
+row23/row23_col78.txt:This is NOT a word with property AMENEMHAT.
+row23/row23_col88.txt:Has property SETHKA: YES
+row24/row24_col50.txt:This is NOT a word with property SETHKA.
+row24/row24_col57.txt:This is NOT a word with property NEFEREFRE.
+row24/row24_col58.txt:This is NOT a word with property NEFEREFRE.
+row24/row24_col64.txt:This is NOT a word with property NURI.
+row24/row24_col66.txt:Has property AMENEMHAT: YES
+row24/row24_col73.txt:Has property MAZGHUNA: YES
+row24/row24_col73.txt:Has property SETHKA: YES
+row24/row24_col76.txt:This is a word with property SETHKA.
+row24/row24_col77.txt:This is a word with property QAKAREIBI.
+row24/row24_col78.txt:Has property SETHKA: YES
+row24/row24_col83.txt:Has property MAZGHUNA: YES
+row24/row24_col84.txt:This is NOT a word with property AMENEMHAT.
+row24/row24_col84.txt:This is NOT a word with property KHUI.
+row24/row24_col84.txt:This is NOT a word with property HAWARA.
+row25/row25_col52.txt:This is a word with property PEPI.
+row25/row25_col56.txt:Has property KHUI: YES
+row25/row25_col56.txt:Has property MAZGHUNA: YES
+row25/row25_col58.txt:Has property SETHKA: YES
+row25/row25_col64.txt:Has property SETHKA: YES
+row25/row25_col68.txt:Has property SETHKA: YES
+row25/row25_col80.txt:Has property MAZGHUNA: YES
+row25/row25_col80.txt:Has property SETHKA: YES
+row25/row25_col83.txt:Has property PEPI: YES
+row26/row26_col52.txt:Has property MAZGHUNA: YES
+row26/row26_col56.txt:This is NOT a word with property MERENRE.
+row26/row26_col57.txt:This is NOT a word with property UNAS.
+row26/row26_col67.txt:Has property SETHKA: YES
+row26/row26_col76.txt:This is NOT a word with property QAKAREIBI.
+row26/row26_col79.txt:This is a word with property MAZGHUNA.
+row26/row26_col84.txt:Has property MAZGHUNA: YES
+row26/row26_col87.txt:Has property MAZGHUNA: YES
+row26/row26_col88.txt:Has property MAZGHUNA: YES
+row26/row26_col88.txt:Has property SETHKA: YES
+row27/row27_col52.txt:This is a word with property MAZGHUNA.
+row27/row27_col65.txt:Has property MAZGHUNA: YES
+row27/row27_col72.txt:This is NOT a word with property AMENYQEMAU.
+row27/row27_col86.txt:This is a word with property MAZGHUNA.
+row27/row27_col87.txt:This is NOT a word with property MERENRE.
+row27/row27_col90.txt:Has property MAZGHUNA: YES
+row28/row28_col51.txt:Has property DJOSER: YES
+row28/row28_col57.txt:This is a word with property QAKAREIBI.
+row28/row28_col62.txt:This is a word with property SETHKA.
+row28/row28_col66.txt:This is a word with property PEPI.
+row28/row28_col71.txt:Has property MAZGHUNA: YES
+row28/row28_col71.txt:Has property MEIDUM: YES
+row28/row28_col72.txt:This is a word with property PEPI.
+row28/row28_col76.txt:This is NOT a word with property AMENYQEMAU.
+row29/row29_col52.txt:Has property AMENYQEMAU: YES
+row29/row29_col60.txt:Has property SETHKA: YES
+row29/row29_col62.txt:Has property MAZGHUNA: YES
+row29/row29_col64.txt:This is a word with property PEPI.
+row29/row29_col73.txt:This is a word with property QAKAREIBI.
+row29/row29_col75.txt:This is a word with property ABUSIR.
+row29/row29_col75.txt:This is NOT a word with property MERENRE.
+row29/row29_col82.txt:This is a word with property AMENEMHAT.
+row29/row29_col84.txt:This is a word with property QAKAREIBI.
+row29/row29_col86.txt:Has property MAZGHUNA: YES
+row29/row29_col87.txt:This is a word with property KHUI.
+row29/row29_col88.txt:This is a word with property HAWARA.
+row29/row29_col93.txt:This is NOT a word with property NURI.
+row3/row3_col77.txt:This is NOT a word with property MEIDUM.
+row3/row3_col78.txt:This is NOT a word with property PEPI.
+row3/row3_col78.txt:This is a word with property BIKHERIS.
+row30/row30_col59.txt:Has property MAZGHUNA: YES
+row30/row30_col59.txt:Has property SETHKA: YES
+row30/row30_col63.txt:Has property QAKAREIBI: YES
+row30/row30_col64.txt:This is NOT a word with property PEPI.
+row30/row30_col66.txt:Has property SETHKA: YES
+row30/row30_col68.txt:This is NOT a word with property QAKAREIBI.
+row30/row30_col69.txt:Has property QAKAREIBI: YES
+row30/row30_col77.txt:This is a word with property HAWARA.
+row30/row30_col84.txt:This is NOT a word with property MENKAURE.
+row30/row30_col86.txt:This is NOT a word with property LISHT.
+row30/row30_col88.txt:This is NOT a word with property MAZGHUNA.
+row30/row30_col92.txt:This is NOT a word with property BIKHERIS.
+row31/row31_col56.txt:This is a word with property MAZGHUNA.
+row31/row31_col59.txt:This is a word with property MAZGHUNA.
+row31/row31_col60.txt:Has property MEIDUM: YES
+row31/row31_col66.txt:Has property SETHKA: YES
+row31/row31_col74.txt:This is NOT a word with property UNAS.
+row31/row31_col83.txt:This is NOT a word with property NURI.
+row31/row31_col85.txt:Has property SETHKA: YES
+row31/row31_col89.txt:This is a word with property PEPI.
+row31/row31_col90.txt:Has property QAKAREIBI: YES
+row32/row32_col51.txt:Has property DJOSER: YES
+row32/row32_col66.txt:Has property SETHKA: YES
+row32/row32_col71.txt:Has property MAZGHUNA: YES
+row32/row32_col73.txt:Has property MAZGHUNA: YES
+row32/row32_col84.txt:This is NOT a word with property LISHT.
+row32/row32_col86.txt:Has property SETHKA: YES
+row33/row33_col53.txt:Has property KHUI: YES
+row33/row33_col55.txt:This is a word with property AMENYQEMAU.
+row33/row33_col59.txt:Has property SETHKA: YES
+row33/row33_col60.txt:Has property SETHKA: YES
+row33/row33_col64.txt:Has property PEPI: YES
+row33/row33_col71.txt:Has property SETHKA: YES
+row33/row33_col77.txt:This is NOT a word with property HAWARA.
+row33/row33_col92.txt:This is NOT a word with property QAKAREIBI.
+row34/row34_col48.txt:This is NOT a word with property MAZGHUNA.
+row34/row34_col51.txt:This is a word with property HAWARA.
+row34/row34_col55.txt:This is NOT a word with property MAZGHUNA.
+row34/row34_col58.txt:This is a word with property QAKAREIBI.
+row34/row34_col72.txt:Has property AMENEMHAT: YES
+row34/row34_col85.txt:Has property MAZGHUNA: YES
+row34/row34_col85.txt:Has property SETHKA: YES
+row35/row35_col44.txt:This is NOT a word with property KHUI.
+row35/row35_col45.txt:This is NOT a word with property NURI.
+row35/row35_col48.txt:Has property AMENYQEMAU: YES
+row35/row35_col48.txt:Has property PEPI: YES
+row35/row35_col57.txt:This is NOT a word with property SETHKA.
+row35/row35_col61.txt:This is NOT a word with property MERENRE.
+row35/row35_col62.txt:Has property PEPI: YES
+row35/row35_col67.txt:Has property MEIDUM: YES
+row35/row35_col68.txt:This is NOT a word with property DJOSER.
+row35/row35_col69.txt:Has property SETHKA: YES
+row35/row35_col75.txt:Has property SETHKA: YES
+row35/row35_col76.txt:Has property MAZGHUNA: YES
+row35/row35_col80.txt:Has property SETHKA: YES
+row35/row35_col81.txt:Has property MAZGHUNA: YES
+row35/row35_col82.txt:Has property HAWARA: YES
+row35/row35_col82.txt:Has property SETHKA: YES
+row35/row35_col84.txt:Has property QAKAREIBI: YES
+row35/row35_col90.txt:This is NOT a word with property DJOSER.
+row35/row35_col91.txt:This is NOT a word with property SETHKA.
+row35/row35_col94.txt:This is NOT a word with property SETHKA.
+row35/row35_col94.txt:This is NOT a word with property MERENRE.
+row36/row36_col50.txt:Has property MERENRE: YES
+row36/row36_col65.txt:This is NOT a word with property KHUI.
+row36/row36_col65.txt:This is a word with property HAWARA.
+row36/row36_col67.txt:This is NOT a word with property AMENYQEMAU.
+row36/row36_col67.txt:This is NOT a word with property ABUSIR.
+row36/row36_col73.txt:Has property MAZGHUNA: YES
+row36/row36_col79.txt:This is NOT a word with property DJOSER.
+row36/row36_col83.txt:Has property MAZGHUNA: YES
+row36/row36_col89.txt:Has property SETHKA: YES
+row36/row36_col92.txt:This is a word with property NURI.
+row36/row36_col93.txt:Has property KHUI: YES
+row37/row37_col43.txt:This is NOT a word with property QAKAREIBI.
+row37/row37_col46.txt:Has property AMENEMHAT: YES
+row37/row37_col46.txt:Has property MEIDUM: YES
+row37/row37_col59.txt:Has property MAZGHUNA: YES
+row37/row37_col67.txt:This is NOT a word with property MEIDUM.
+row37/row37_col77.txt:Has property AMENYQEMAU: YES
+row37/row37_col81.txt:Has property SETHKA: YES
+row37/row37_col87.txt:This is NOT a word with property AMENEMHAT.
+row38/row38_col47.txt:This is NOT a word with property KHUI.
+row38/row38_col55.txt:Has property SETHKA: YES
+row38/row38_col58.txt:Has property MAZGHUNA: YES
+row38/row38_col59.txt:This is a word with property SETHKA.
+row38/row38_col72.txt:Has property SETHKA: YES
+row38/row38_col73.txt:This is NOT a word with property MAZGHUNA.
+row38/row38_col76.txt:This is NOT a word with property MEIDUM.
+row38/row38_col77.txt:Has property SETHKA: YES
+row38/row38_col79.txt:This is a word with property ABUSIR.
+row38/row38_col81.txt:Has property SETHKA: YES
+row38/row38_col84.txt:This is NOT a word with property MERENRE.
+row38/row38_col87.txt:This is a word with property BIKHERIS.
+row38/row38_col90.txt:This is a word with property SETHKA.
+row38/row38_col91.txt:This is a word with property MAZGHUNA.
+row38/row38_col97.txt:This is NOT a word with property PEPI.
+row39/row39_col48.txt:This is NOT a word with property SOBEKNEFERU.
+row39/row39_col53.txt:This is a word with property AMENYQEMAU.
+row39/row39_col55.txt:Has property QAKAREIBI: YES
+row39/row39_col59.txt:Has property SETHKA: YES
+row39/row39_col60.txt:Has property SETHKA: YES
+row39/row39_col62.txt:This is a word with property BIKHERIS.
+row39/row39_col65.txt:This is NOT a word with property MERENRE.
+row39/row39_col70.txt:Has property PEPI: YES
+row39/row39_col75.txt:Has property PEPI: YES
+row39/row39_col90.txt:Has property SETHKA: YES
+row39/row39_col96.txt:This is a word with property DJOSER.
+row4/row4_col68.txt:This is a word with property SOBEKNEFERU.
+row4/row4_col72.txt:Has property KHUI: YES
+row4/row4_col76.txt:Has property AMENYQEMAU: YES
+row4/row4_col79.txt:This is NOT a word with property MEIDUM.
+row40/row40_col44.txt:This is a word with property MEIDUM.
+row40/row40_col47.txt:This is a word with property DJOSER.
+row40/row40_col49.txt:This is a word with property MAZGHUNA.
+row40/row40_col52.txt:This is NOT a word with property NURI.
+row40/row40_col53.txt:This is a word with property BIKHERIS.
+row40/row40_col58.txt:This is a word with property DJOSER.
+row40/row40_col66.txt:Has property KHUI: YES
+row40/row40_col68.txt:This is a word with property DJOSER.
+row40/row40_col74.txt:This is NOT a word with property HAWARA.
+row40/row40_col77.txt:This is a word with property SETHKA.
+row40/row40_col81.txt:Has property SETHKA: YES
+row40/row40_col86.txt:This is NOT a word with property NURI.
+row40/row40_col93.txt:This is a word with property NURI.
+row40/row40_col93.txt:This is a word with property MENKAURE.
+row41/row41_col54.txt:Has property AMENYQEMAU: YES
+row41/row41_col58.txt:This is NOT a word with property AMENYQEMAU.
+row41/row41_col58.txt:This is NOT a word with property NEFEREFRE.
+row41/row41_col61.txt:This is NOT a word with property SOBEKNEFERU.
+row41/row41_col64.txt:This is NOT a word with property AMENYQEMAU.
+row41/row41_col69.txt:This is NOT a word with property SETHKA.
+row41/row41_col72.txt:This is a word with property LISHT.
+row41/row41_col77.txt:This is a word with property HAWARA.
+row41/row41_col79.txt:Has property BIKHERIS: YES
+row41/row41_col86.txt:This is a word with property MAZGHUNA.
+row41/row41_col93.txt:Has property KHUI: YES
+row41/row41_col96.txt:This is a word with property SETHKA.
+row42/row42_col41.txt:This is NOT a word with property MERENRE.
+row42/row42_col65.txt:This is a word with property LISHT.
+row42/row42_col76.txt:Has property AMENYQEMAU: YES
+row42/row42_col76.txt:Has property BIKHERIS: YES
+row42/row42_col84.txt:This is NOT a word with property UNAS.
+row42/row42_col86.txt:This is a word with property MEIDUM.
+row42/row42_col90.txt:This is NOT a word with property SETHKA.
+row42/row42_col90.txt:This is NOT a word with property AMENEMHAT.
+row42/row42_col92.txt:This is a word with property BIKHERIS.
+row42/row42_col98.txt:This is a word with property DJOSER.
+row43/row43_col49.txt:This is NOT a word with property NURI.
+row43/row43_col52.txt:This is a word with property KHUI.
+row43/row43_col65.txt:Has property AMENEMHAT: YES
+row43/row43_col73.txt:This is a word with property MERENRE.
+row43/row43_col75.txt:Has property KHUI: YES
+row43/row43_col77.txt:This is a word with property MERENRE.
+row43/row43_col77.txt:This is NOT a word with property DJOSER.
+row43/row43_col81.txt:Has property SETHKA: YES
+row43/row43_col83.txt:Has property MAZGHUNA: YES
+row44/row44_col46.txt:This is a word with property DJOSER.
+row44/row44_col51.txt:Has property KHUI: YES
+row44/row44_col68.txt:Has property MERENRE: YES
+row44/row44_col68.txt:Has property SETHKA: YES
+row44/row44_col82.txt:Has property SETHKA: YES
+row44/row44_col91.txt:This is a word with property DJOSER.
+row44/row44_col94.txt:This is a word with property KHUI.
+row44/row44_col97.txt:This is a word with property DJOSER.
+row44/row44_col97.txt:This is a word with property KHUI.
+row45/row45_col100.txt:This is NOT a word with property SETHKA.
+row45/row45_col100.txt:This is NOT a word with property MAZGHUNA.
+row45/row45_col43.txt:This is a word with property AMENYQEMAU.
+row45/row45_col53.txt:Has property KHUI: YES
+row45/row45_col56.txt:This is a word with property HAWARA.
+row45/row45_col58.txt:This is a word with property KHUI.
+row45/row45_col62.txt:This is NOT a word with property NEFEREFRE.
+row45/row45_col66.txt:Has property MAZGHUNA: YES
+row45/row45_col67.txt:This is NOT a word with property BIKHERIS.
+row45/row45_col81.txt:This is a word with property BIKHERIS.
+row45/row45_col90.txt:Has property KHUI: YES
+row46/row46_col102.txt:This is NOT a word with property PEPI.
+row46/row46_col42.txt:Has property SETHKA: YES
+row46/row46_col43.txt:Has property DJOSER: YES
+row46/row46_col46.txt:This is NOT a word with property DJOSER.
+row46/row46_col48.txt:This is NOT a word with property ABUSIR.
+row46/row46_col49.txt:This is a word with property LISHT.
+row46/row46_col53.txt:This is NOT a word with property NEFEREFRE.
+row46/row46_col54.txt:This is NOT a word with property DJOSER.
+row46/row46_col61.txt:This is NOT a word with property QAKAREIBI.
+row46/row46_col65.txt:This is NOT a word with property UNAS.
+row46/row46_col66.txt:Has property MAZGHUNA: YES
+row46/row46_col66.txt:Has property PEPI: YES
+row46/row46_col70.txt:Has property KHUI: YES
+row46/row46_col72.txt:Has property KHUI: YES
+row46/row46_col75.txt:This is a word with property SETHKA.
+row46/row46_col77.txt:Has property MERENRE: YES
+row46/row46_col82.txt:Has property HAWARA: YES
+row46/row46_col82.txt:Has property MAZGHUNA: YES
+row46/row46_col90.txt:This is a word with property MERENRE.
+row47/row47_col55.txt:Has property KHUI: YES
+row47/row47_col56.txt:This is NOT a word with property SETHKA.
+row47/row47_col65.txt:This is NOT a word with property AMENYQEMAU.
+row47/row47_col91.txt:Has property MERENRE: YES
+row47/row47_col95.txt:Has property DJOSER: YES
+row48/row48_col40.txt:This is a word with property SETHKA.
+row48/row48_col41.txt:This is NOT a word with property KHUI.
+row48/row48_col43.txt:This is a word with property QAKAREIBI.
+row48/row48_col52.txt:This is a word with property AMENYQEMAU.
+row48/row48_col53.txt:Has property KHUI: YES
+row48/row48_col58.txt:Has property MERENRE: YES
+row48/row48_col58.txt:Has property SOBEKNEFERU: YES
+row48/row48_col62.txt:This is a word with property SETHKA.
+row48/row48_col69.txt:Has property MAZGHUNA: YES
+row48/row48_col76.txt:Has property SETHKA: YES
+row48/row48_col81.txt:Has property KHUI: YES
+row48/row48_col93.txt:This is NOT a word with property NURI.
+row49/row49_col103.txt:This is NOT a word with property SETHKA.
+row49/row49_col39.txt:This is a word with property DJOSER.
+row49/row49_col41.txt:This is NOT a word with property HAWARA.
+row49/row49_col53.txt:This is NOT a word with property AMENEMHAT.
+row49/row49_col60.txt:Has property SETHKA: YES
+row49/row49_col65.txt:Has property MAZGHUNA: YES
+row49/row49_col67.txt:Has property PEPI: YES
+row49/row49_col70.txt:This is a word with property SETHKA.
+row49/row49_col70.txt:This is NOT a word with property AMENYQEMAU.
+row49/row49_col73.txt:This is NOT a word with property NEFEREFRE.
+row49/row49_col86.txt:This is NOT a word with property NURI.
+row49/row49_col86.txt:This is a word with property SETHKA.
+row49/row49_col87.txt:Has property AMENYQEMAU: YES
+row49/row49_col98.txt:This is NOT a word with property MENKAURE.
+row49/row49_col99.txt:Has property SETHKA: YES
+row5/row5_col62.txt:This is NOT a word with property SETHKA.
+row5/row5_col63.txt:Has property SOBEKNEFERU: YES
+row5/row5_col66.txt:This is NOT a word with property PEPI.
+row5/row5_col67.txt:Has property AMENEMHAT: YES
+row5/row5_col70.txt:Has property PEPI: YES
+row5/row5_col72.txt:Has property HAWARA: YES
+row5/row5_col72.txt:Has property UNAS: YES
+row5/row5_col73.txt:This is NOT a word with property BIKHERIS.
+row5/row5_col74.txt:This is a word with property AMENEMHAT.
+row50/row50_col104.txt:This is NOT a word with property DJOSER.
+row50/row50_col40.txt:Has property SETHKA: YES
+row50/row50_col48.txt:This is NOT a word with property MERENRE.
+row50/row50_col58.txt:Has property KHUI: YES
+row50/row50_col59.txt:This is a word with property HAWARA.
+row50/row50_col60.txt:Has property PEPI: YES
+row50/row50_col61.txt:Has property PEPI: YES
+row50/row50_col63.txt:This is NOT a word with property LISHT.
+row50/row50_col64.txt:This is a word with property AMENEMHAT.
+row50/row50_col72.txt:Has property SETHKA: YES
+row50/row50_col86.txt:Has property HAWARA: YES
+row50/row50_col86.txt:Has property PEPI: YES
+row50/row50_col86.txt:Has property QAKAREIBI: YES
+row50/row50_col93.txt:This is NOT a word with property UNAS.
+row50/row50_col96.txt:This is a word with property NURI.
+row50/row50_col97.txt:Has property QAKAREIBI: YES
+row51/row51_col45.txt:This is a word with property DJOSER.
+row51/row51_col52.txt:This is a word with property AMENYQEMAU.
+row51/row51_col59.txt:This is a word with property MAZGHUNA.
+row51/row51_col64.txt:Has property QAKAREIBI: YES
+row51/row51_col67.txt:Has property MAZGHUNA: YES
+row51/row51_col69.txt:Has property HAWARA: YES
+row51/row51_col70.txt:This is a word with property ABUSIR.
+row51/row51_col71.txt:This is NOT a word with property AMENEMHAT.
+row51/row51_col80.txt:This is NOT a word with property NEFEREFRE.
+row51/row51_col84.txt:This is a word with property SETHKA.
+row51/row51_col85.txt:Has property SETHKA: YES
+row51/row51_col86.txt:This is NOT a word with property PEPI.
+row51/row51_col88.txt:This is NOT a word with property AMENEMHAT.
+row51/row51_col90.txt:Has property KHUI: YES
+row51/row51_col90.txt:Has property QAKAREIBI: YES
+row51/row51_col93.txt:Has property SETHKA: YES
+row51/row51_col97.txt:Has property KHUI: YES
+row52/row52_col101.txt:This is NOT a word with property MEIDUM.
+row52/row52_col101.txt:This is NOT a word with property KHUI.
+row52/row52_col45.txt:This is a word with property PEPI.
+row52/row52_col49.txt:Has property DJOSER: YES
+row52/row52_col56.txt:Has property PEPI: YES
+row52/row52_col59.txt:This is NOT a word with property MERENRE.
+row52/row52_col64.txt:This is NOT a word with property DJOSER.
+row52/row52_col67.txt:Has property KHUI: YES
+row52/row52_col70.txt:Has property MEIDUM: YES
+row52/row52_col78.txt:This is a word with property MERENRE.
+row52/row52_col86.txt:Has property AMENEMHAT: YES
+row52/row52_col90.txt:This is a word with property PEPI.
+row52/row52_col97.txt:Has property MAZGHUNA: YES
+row52/row52_col99.txt:Has property MAZGHUNA: YES
+row53/row53_col36.txt:This is NOT a word with property BIKHERIS.
+row53/row53_col41.txt:Has property SETHKA: YES
+row53/row53_col52.txt:Has property MERENRE: YES
+row53/row53_col53.txt:This is NOT a word with property MEIDUM.
+row53/row53_col54.txt:Has property KHUI: YES
+row53/row53_col54.txt:Has property PEPI: YES
+row53/row53_col70.txt:This is NOT a word with property AMENEMHAT.
+row53/row53_col73.txt:This is a word with property MAZGHUNA.
+row53/row53_col79.txt:Has property KHUI: YES
+row53/row53_col83.txt:Has property SETHKA: YES
+row53/row53_col85.txt:This is a word with property MAZGHUNA.
+row53/row53_col90.txt:Has property MERENRE: YES
+row53/row53_col91.txt:This is a word with property QAKAREIBI.
+row53/row53_col92.txt:Has property BIKHERIS: YES
+row53/row53_col98.txt:This is NOT a word with property HAWARA.
+row53/row53_col99.txt:Has property BIKHERIS: YES
+row54/row54_col106.txt:This is NOT a word with property MERENRE.
+row54/row54_col39.txt:Has property HAWARA: YES
+row54/row54_col41.txt:Has property MAZGHUNA: YES
+row54/row54_col44.txt:Has property PEPI: YES
+row54/row54_col45.txt:This is a word with property SETHKA.
+row54/row54_col46.txt:Has property QAKAREIBI: YES
+row54/row54_col50.txt:This is NOT a word with property AMENEMHAT.
+row54/row54_col67.txt:Has property MEIDUM: YES
+row54/row54_col82.txt:This is NOT a word with property QAKAREIBI.
+row54/row54_col85.txt:Has property MAZGHUNA: YES
+row54/row54_col87.txt:This is NOT a word with property KHUI.
+row54/row54_col98.txt:Has property AMENEMHAT: YES
+row55/row55_col101.txt:This is NOT a word with property PEPI.
+row55/row55_col101.txt:This is a word with property AMENEMHAT.
+row55/row55_col37.txt:Has property QAKAREIBI: YES
+row55/row55_col40.txt:This is a word with property QAKAREIBI.
+row55/row55_col43.txt:Has property MAZGHUNA: YES
+row55/row55_col45.txt:This is NOT a word with property SOBEKNEFERU.
+row55/row55_col47.txt:This is NOT a word with property LISHT.
+row55/row55_col52.txt:This is a word with property ABUSIR.
+row55/row55_col55.txt:Has property AMENYQEMAU: YES
+row55/row55_col84.txt:Has property SETHKA: YES
+row55/row55_col89.txt:This is a word with property SOBEKNEFERU.
+row55/row55_col91.txt:Has property PEPI: YES
+row55/row55_col92.txt:Has property KHUI: YES
+row55/row55_col95.txt:This is NOT a word with property KHUI.
+row55/row55_col96.txt:Has property QAKAREIBI: YES
+row55/row55_col99.txt:Has property HAWARA: YES
+row56/row56_col101.txt:Has property KHUI: YES
+row56/row56_col102.txt:This is NOT a word with property LISHT.
+row56/row56_col45.txt:This is NOT a word with property MENKAURE.
+row56/row56_col46.txt:Has property PEPI: YES
+row56/row56_col47.txt:This is NOT a word with property ABUSIR.
+row56/row56_col56.txt:This is a word with property AMENYQEMAU.
+row56/row56_col56.txt:This is a word with property MERENRE.
+row56/row56_col59.txt:This is NOT a word with property MENKAURE.
+row56/row56_col61.txt:This is NOT a word with property SOBEKNEFERU.
+row56/row56_col62.txt:This is a word with property MEIDUM.
+row56/row56_col79.txt:This is NOT a word with property MERENRE.
+row56/row56_col80.txt:Has property SETHKA: YES
+row56/row56_col84.txt:This is a word with property UNAS.
+row56/row56_col89.txt:Has property MERENRE: YES
+row56/row56_col93.txt:Has property SETHKA: YES
+row56/row56_col97.txt:This is a word with property BIKHERIS.
+row57/row57_col103.txt:This is a word with property AMENEMHAT.
+row57/row57_col35.txt:This is a word with property BIKHERIS.
+row57/row57_col36.txt:Has property BIKHERIS: YES
+row57/row57_col36.txt:Has property PEPI: YES
+row57/row57_col37.txt:Has property SETHKA: YES
+row57/row57_col40.txt:This is a word with property SOBEKNEFERU.
+row57/row57_col42.txt:Has property MAZGHUNA: YES
+row57/row57_col43.txt:Has property BIKHERIS: YES
+row57/row57_col56.txt:This is NOT a word with property AMENYQEMAU.
+row57/row57_col61.txt:Has property KHUI: YES
+row57/row57_col66.txt:Has property MAZGHUNA: YES
+row57/row57_col72.txt:Has property MERENRE: YES
+row57/row57_col75.txt:Has property SETHKA: YES
+row57/row57_col81.txt:This is NOT a word with property NURI.
+row57/row57_col82.txt:Has property BIKHERIS: YES
+row57/row57_col82.txt:Has property MAZGHUNA: YES
+row57/row57_col84.txt:This is a word with property NURI.
+row57/row57_col86.txt:This is NOT a word with property LISHT.
+row57/row57_col87.txt:Has property KHUI: YES
+row58/row58_col103.txt:Has property BIKHERIS: YES
+row58/row58_col103.txt:Has property SOBEKNEFERU: YES
+row58/row58_col108.txt:This is NOT a word with property AMENEMHAT.
+row58/row58_col47.txt:This is a word with property ABUSIR.
+row58/row58_col50.txt:Has property SETHKA: YES
+row58/row58_col53.txt:Has property KHUI: YES
+row58/row58_col54.txt:This is a word with property HAWARA.
+row58/row58_col57.txt:This is a word with property MAZGHUNA.
+row58/row58_col63.txt:This is NOT a word with property KHUI.
+row58/row58_col64.txt:Has property SETHKA: YES
+row58/row58_col71.txt:Has property KHUI: YES
+row58/row58_col73.txt:This is NOT a word with property LISHT.
+row58/row58_col76.txt:Has property MENKAURE: YES
+row58/row58_col77.txt:Has property KHUI: YES
+row58/row58_col83.txt:This is a word with property MENKAURE.
+row58/row58_col86.txt:This is a word with property MERENRE.
+row58/row58_col90.txt:Has property KHUI: YES
+row59/row59_col100.txt:This is NOT a word with property UNAS.
+row59/row59_col102.txt:Has property SOBEKNEFERU: YES
+row59/row59_col104.txt:This is a word with property BIKHERIS.
+row59/row59_col106.txt:This is NOT a word with property PEPI.
+row59/row59_col108.txt:This is NOT a word with property LISHT.
+row59/row59_col36.txt:This is a word with property BIKHERIS.
+row59/row59_col38.txt:Has property HAWARA: YES
+row59/row59_col45.txt:Has property AMENEMHAT: YES
+row59/row59_col53.txt:Has property PEPI: YES
+row59/row59_col54.txt:This is NOT a word with property PEPI.
+row59/row59_col70.txt:Has property SETHKA: YES
+row59/row59_col73.txt:This is NOT a word with property ABUSIR.
+row59/row59_col75.txt:This is a word with property SETHKA.
+row59/row59_col80.txt:This is a word with property MENKAURE.
+row59/row59_col81.txt:Has property KHUI: YES
+row59/row59_col89.txt:This is a word with property ABUSIR.
+row59/row59_col97.txt:This is a word with property SOBEKNEFERU.
+row6/row6_col62.txt:Has property KHUI: YES
+row6/row6_col62.txt:Has property SOBEKNEFERU: YES
+row6/row6_col64.txt:This is a word with property HAWARA.
+row6/row6_col65.txt:This is a word with property UNAS.
+row6/row6_col67.txt:Has property BIKHERIS: YES
+row6/row6_col70.txt:Has property KHUI: YES
+row6/row6_col75.txt:Has property BIKHERIS: YES
+row6/row6_col79.txt:This is NOT a word with property PEPI.
+row60/row60_col100.txt:This is a word with property BIKHERIS.
+row60/row60_col103.txt:This is NOT a word with property PEPI.
+row60/row60_col105.txt:This is a word with property HAWARA.
+row60/row60_col107.txt:This is NOT a word with property MENKAURE.
+row60/row60_col108.txt:This is NOT a word with property SETHKA.
+row60/row60_col36.txt:This is NOT a word with property MERENRE.
+row60/row60_col48.txt:Has property QAKAREIBI: YES
+row60/row60_col50.txt:Has property MAZGHUNA: YES
+row60/row60_col50.txt:Has property PEPI: YES
+row60/row60_col52.txt:This is a word with property PEPI.
+row60/row60_col55.txt:This is NOT a word with property UNAS.
+row60/row60_col66.txt:Has property DJOSER: YES
+row60/row60_col66.txt:Has property MEIDUM: YES
+row60/row60_col70.txt:Has property MAZGHUNA: YES
+row60/row60_col82.txt:Has property ABUSIR: YES
+row60/row60_col84.txt:Has property MERENRE: YES
+row60/row60_col95.txt:This is NOT a word with property QAKAREIBI.
+row60/row60_col96.txt:This is a word with property SOBEKNEFERU.
+row60/row60_col97.txt:Has property SOBEKNEFERU: YES
+row61/row61_col103.txt:Has property PEPI: YES
+row61/row61_col105.txt:Has property BIKHERIS: YES
+row61/row61_col35.txt:This is NOT a word with property AMENYQEMAU.
+row61/row61_col37.txt:Has property KHUI: YES
+row61/row61_col38.txt:Has property ABUSIR: YES
+row61/row61_col40.txt:Has property HAWARA: YES
+row61/row61_col45.txt:This is a word with property SOBEKNEFERU.
+row61/row61_col47.txt:Has property QAKAREIBI: YES
+row61/row61_col52.txt:This is a word with property BIKHERIS.
+row61/row61_col67.txt:Has property PEPI: YES
+row61/row61_col70.txt:Has property KHUI: YES
+row61/row61_col72.txt:Has property SETHKA: YES
+row61/row61_col76.txt:This is a word with property AMENEMHAT.
+row61/row61_col86.txt:Has property KHUI: YES
+row61/row61_col88.txt:This is a word with property QAKAREIBI.
+row61/row61_col93.txt:Has property SETHKA: YES
+row61/row61_col93.txt:Has property SOBEKNEFERU: YES
+row61/row61_col96.txt:This is NOT a word with property NURI.
+row62/row62_col107.txt:This is a word with property PEPI.
+row62/row62_col108.txt:Has property HAWARA: YES
+row62/row62_col39.txt:Has property SETHKA: YES
+row62/row62_col39.txt:Has property SOBEKNEFERU: YES
+row62/row62_col43.txt:This is a word with property AMENEMHAT.
+row62/row62_col51.txt:Has property PEPI: YES
+row62/row62_col53.txt:This is a word with property KHUI.
+row62/row62_col60.txt:Has property KHUI: YES
+row62/row62_col66.txt:Has property AMENYQEMAU: YES
+row62/row62_col66.txt:Has property MAZGHUNA: YES
+row62/row62_col70.txt:This is a word with property ABUSIR.
+row62/row62_col73.txt:Has property MAZGHUNA: YES
+row62/row62_col73.txt:Has property PEPI: YES
+row62/row62_col78.txt:Has property QAKAREIBI: YES
+row62/row62_col81.txt:Has property KHUI: YES
+row62/row62_col86.txt:This is a word with property MEIDUM.
+row62/row62_col86.txt:This is NOT a word with property AMENEMHAT.
+row63/row63_col102.txt:Has property HAWARA: YES
+row63/row63_col103.txt:Has property KHUI: YES
+row63/row63_col107.txt:This is a word with property SOBEKNEFERU.
+row63/row63_col52.txt:This is a word with property AMENEMHAT.
+row63/row63_col58.txt:This is a word with property QAKAREIBI.
+row63/row63_col64.txt:Has property MERENRE: YES
+row63/row63_col66.txt:Has property KHUI: YES
+row63/row63_col71.txt:Has property MAZGHUNA: YES
+row63/row63_col74.txt:Has property BIKHERIS: YES
+row63/row63_col75.txt:This is a word with property MAZGHUNA.
+row63/row63_col94.txt:Has property QAKAREIBI: YES
+row63/row63_col98.txt:Has property SOBEKNEFERU: YES
+row63/row63_col99.txt:This is NOT a word with property KHUI.
+row64/row64_col100.txt:This is NOT a word with property QAKAREIBI.
+row64/row64_col101.txt:This is a word with property UNAS.
+row64/row64_col107.txt:This is a word with property BIKHERIS.
+row64/row64_col108.txt:This is a word with property SOBEKNEFERU.
+row64/row64_col35.txt:Has property MAZGHUNA: YES
+row64/row64_col42.txt:Has property SOBEKNEFERU: YES
+row64/row64_col44.txt:This is a word with property ABUSIR.
+row64/row64_col64.txt:This is NOT a word with property MERENRE.
+row64/row64_col65.txt:This is NOT a word with property SOBEKNEFERU.
+row64/row64_col68.txt:Has property MAZGHUNA: YES
+row64/row64_col77.txt:This is NOT a word with property QAKAREIBI.
+row64/row64_col90.txt:Has property SETHKA: YES
+row64/row64_col98.txt:This is NOT a word with property DJOSER.
+row64/row64_col99.txt:Has property SOBEKNEFERU: YES
+row65/row65_col101.txt:This is NOT a word with property MEIDUM.
+row65/row65_col103.txt:This is a word with property SETHKA.
+row65/row65_col108.txt:Has property AMENYQEMAU: YES
+row65/row65_col108.txt:Has property PEPI: YES
+row65/row65_col109.txt:Has property KHUI: YES
+row65/row65_col31.txt:Has property KHUI: YES
+row65/row65_col31.txt:Has property UNAS: YES
+row65/row65_col35.txt:Has property SOBEKNEFERU: YES
+row65/row65_col38.txt:This is NOT a word with property BIKHERIS.
+row65/row65_col44.txt:Has property ABUSIR: YES
+row65/row65_col45.txt:This is a word with property SOBEKNEFERU.
+row65/row65_col64.txt:Has property BIKHERIS: YES
+row65/row65_col68.txt:This is NOT a word with property AMENEMHAT.
+row65/row65_col71.txt:Has property QAKAREIBI: YES
+row65/row65_col74.txt:This is a word with property BIKHERIS.
+row65/row65_col75.txt:This is NOT a word with property ABUSIR.
+row65/row65_col83.txt:Has property MAZGHUNA: YES
+row65/row65_col85.txt:Has property SETHKA: YES
+row65/row65_col86.txt:This is a word with property PEPI.
+row65/row65_col87.txt:This is a word with property DJOSER.
+row65/row65_col93.txt:This is a word with property PEPI.
+row65/row65_col95.txt:Has property BIKHERIS: YES
+row65/row65_col96.txt:This is NOT a word with property ABUSIR.
+row65/row65_col98.txt:Has property SOBEKNEFERU: YES
+row65/row65_col99.txt:This is a word with property SOBEKNEFERU.
+row66/row66_col100.txt:Has property PEPI: YES
+row66/row66_col100.txt:Has property SOBEKNEFERU: YES
+row66/row66_col104.txt:Has property AMENEMHAT: YES
+row66/row66_col109.txt:Has property MAZGHUNA: YES
+row66/row66_col110.txt:This is a word with property QAKAREIBI.
+row66/row66_col40.txt:This is a word with property AMENEMHAT.
+row66/row66_col43.txt:Has property QAKAREIBI: YES
+row66/row66_col44.txt:Has property PEPI: YES
+row66/row66_col44.txt:Has property SOBEKNEFERU: YES
+row66/row66_col45.txt:This is NOT a word with property ABUSIR.
+row66/row66_col50.txt:Has property MAZGHUNA: YES
+row66/row66_col51.txt:Has property SETHKA: YES
+row66/row66_col55.txt:Has property HAWARA: YES
+row66/row66_col55.txt:Has property KHUI: YES
+row66/row66_col58.txt:This is NOT a word with property PEPI.
+row66/row66_col63.txt:Has property SETHKA: YES
+row66/row66_col69.txt:This is a word with property SOBEKNEFERU.
+row66/row66_col71.txt:This is NOT a word with property MEIDUM.
+row66/row66_col74.txt:Has property SETHKA: YES
+row66/row66_col88.txt:This is NOT a word with property NEFEREFRE.
+row67/row67_col108.txt:Has property ABUSIR: YES
+row67/row67_col109.txt:This is a word with property AMENEMHAT.
+row67/row67_col35.txt:This is NOT a word with property AMENYQEMAU.
+row67/row67_col40.txt:This is a word with property UNAS.
+row67/row67_col45.txt:This is NOT a word with property NEFEREFRE.
+row67/row67_col50.txt:Has property AMENYQEMAU: YES
+row67/row67_col58.txt:Has property AMENEMHAT: YES
+row67/row67_col58.txt:Has property MAZGHUNA: YES
+row67/row67_col64.txt:Has property HAWARA: YES
+row67/row67_col64.txt:Has property QAKAREIBI: YES
+row67/row67_col69.txt:Has property QAKAREIBI: YES
+row67/row67_col78.txt:This is NOT a word with property SETHKA.
+row67/row67_col88.txt:This is a word with property QAKAREIBI.
+row67/row67_col97.txt:Has property HAWARA: YES
+row68/row68_col104.txt:This is NOT a word with property BIKHERIS.
+row68/row68_col106.txt:Has property ABUSIR: YES
+row68/row68_col111.txt:This is NOT a word with property NEFEREFRE.
+row68/row68_col31.txt:This is a word with property AMENEMHAT.
+row68/row68_col32.txt:This is NOT a word with property MAZGHUNA.
+row68/row68_col46.txt:This is a word with property MAZGHUNA.
+row68/row68_col56.txt:This is NOT a word with property BIKHERIS.
+row68/row68_col58.txt:This is NOT a word with property NURI.
+row68/row68_col61.txt:This is NOT a word with property HAWARA.
+row68/row68_col70.txt:Has property SETHKA: YES
+row68/row68_col82.txt:Has property HAWARA: YES
+row68/row68_col92.txt:This is NOT a word with property SOBEKNEFERU.
+row68/row68_col97.txt:This is NOT a word with property MEIDUM.
+row69/row69_col100.txt:Has property PEPI: YES
+row69/row69_col104.txt:Has property BIKHERIS: YES
+row69/row69_col30.txt:Has property MEIDUM: YES
+row69/row69_col30.txt:Has property SETHKA: YES
+row69/row69_col32.txt:Has property BIKHERIS: YES
+row69/row69_col38.txt:Has property MAZGHUNA: YES
+row69/row69_col38.txt:Has property PEPI: YES
+row69/row69_col40.txt:Has property SETHKA: YES
+row69/row69_col40.txt:Has property SOBEKNEFERU: YES
+row69/row69_col42.txt:Has property SOBEKNEFERU: YES
+row69/row69_col48.txt:Has property MAZGHUNA: YES
+row69/row69_col49.txt:This is NOT a word with property AMENYQEMAU.
+row69/row69_col53.txt:This is a word with property AMENEMHAT.
+row69/row69_col65.txt:This is NOT a word with property HAWARA.
+row69/row69_col68.txt:Has property SETHKA: YES
+row69/row69_col72.txt:Has property SETHKA: YES
+row69/row69_col75.txt:Has property MAZGHUNA: YES
+row69/row69_col99.txt:Has property AMENEMHAT: YES
+row7/row7_col60.txt:This is a word with property AMENEMHAT.
+row7/row7_col68.txt:This is NOT a word with property LISHT.
+row7/row7_col70.txt:This is NOT a word with property UNAS.
+row7/row7_col75.txt:This is a word with property UNAS.
+row70/row70_col100.txt:Has property SOBEKNEFERU: YES
+row70/row70_col103.txt:Has property SOBEKNEFERU: YES
+row70/row70_col107.txt:Has property AMENEMHAT: YES
+row70/row70_col112.txt:Has property SOBEKNEFERU: YES
+row70/row70_col114.txt:This is NOT a word with property SOBEKNEFERU.
+row70/row70_col33.txt:Has property SETHKA: YES
+row70/row70_col33.txt:Has property SOBEKNEFERU: YES
+row70/row70_col35.txt:Has property PEPI: YES
+row70/row70_col35.txt:Has property SOBEKNEFERU: YES
+row70/row70_col37.txt:Has property SETHKA: YES
+row70/row70_col40.txt:Has property AMENEMHAT: YES
+row70/row70_col41.txt:This is NOT a word with property LISHT.
+row70/row70_col51.txt:This is NOT a word with property MAZGHUNA.
+row70/row70_col53.txt:This is a word with property ABUSIR.
+row70/row70_col55.txt:This is a word with property MEIDUM.
+row70/row70_col60.txt:This is NOT a word with property HAWARA.
+row70/row70_col61.txt:Has property SETHKA: YES
+row70/row70_col68.txt:Has property SETHKA: YES
+row70/row70_col78.txt:Has property SETHKA: YES
+row70/row70_col80.txt:Has property MAZGHUNA: YES
+row70/row70_col80.txt:Has property PEPI: YES
+row70/row70_col88.txt:This is NOT a word with property MAZGHUNA.
+row70/row70_col92.txt:Has property AMENYQEMAU: YES
+row70/row70_col94.txt:This is NOT a word with property AMENYQEMAU.
+row70/row70_col96.txt:Has property MAZGHUNA: YES
+row71/row71_col103.txt:This is NOT a word with property NEFEREFRE.
+row71/row71_col106.txt:Has property UNAS: YES
+row71/row71_col108.txt:Has property UNAS: YES
+row71/row71_col112.txt:This is a word with property NURI.
+row71/row71_col112.txt:This is NOT a word with property MAZGHUNA.
+row71/row71_col36.txt:Has property MAZGHUNA: YES
+row71/row71_col36.txt:Has property SOBEKNEFERU: YES
+row71/row71_col41.txt:Has property MAZGHUNA: YES
+row71/row71_col42.txt:This is a word with property QAKAREIBI.
+row71/row71_col44.txt:Has property QAKAREIBI: YES
+row71/row71_col46.txt:Has property SETHKA: YES
+row71/row71_col52.txt:This is a word with property DJOSER.
+row71/row71_col54.txt:This is a word with property BIKHERIS.
+row71/row71_col56.txt:Has property MAZGHUNA: YES
+row71/row71_col66.txt:Has property MAZGHUNA: YES
+row71/row71_col91.txt:This is a word with property DJOSER.
+row71/row71_col93.txt:Has property AMENYQEMAU: YES
+row71/row71_col96.txt:This is NOT a word with property MEIDUM.
+row72/row72_col100.txt:Has property MAZGHUNA: YES
+row72/row72_col101.txt:This is NOT a word with property SETHKA.
+row72/row72_col107.txt:This is a word with property PEPI.
+row72/row72_col110.txt:This is a word with property SOBEKNEFERU.
+row72/row72_col31.txt:Has property SETHKA: YES
+row72/row72_col31.txt:Has property SOBEKNEFERU: YES
+row72/row72_col32.txt:This is a word with property ABUSIR.
+row72/row72_col37.txt:Has property SOBEKNEFERU: YES
+row72/row72_col42.txt:This is NOT a word with property MERENRE.
+row72/row72_col54.txt:This is NOT a word with property MERENRE.
+row72/row72_col55.txt:This is NOT a word with property MENKAURE.
+row72/row72_col57.txt:This is NOT a word with property HAWARA.
+row72/row72_col62.txt:This is a word with property AMENEMHAT.
+row72/row72_col63.txt:Has property SETHKA: YES
+row72/row72_col68.txt:Has property KHUI: YES
+row72/row72_col70.txt:This is a word with property AMENYQEMAU.
+row72/row72_col70.txt:This is a word with property KHUI.
+row72/row72_col85.txt:This is a word with property HAWARA.
+row72/row72_col98.txt:This is NOT a word with property NURI.
+row73/row73_col109.txt:Has property AMENEMHAT: YES
+row73/row73_col109.txt:Has property KHUI: YES
+row73/row73_col109.txt:Has property SOBEKNEFERU: YES
+row73/row73_col111.txt:This is a word with property UNAS.
+row73/row73_col28.txt:This is NOT a word with property MENKAURE.
+row73/row73_col29.txt:Has property HAWARA: YES
+row73/row73_col36.txt:Has property AMENEMHAT: YES
+row73/row73_col40.txt:This is NOT a word with property BIKHERIS.
+row73/row73_col44.txt:Has property KHUI: YES
+row73/row73_col46.txt:This is NOT a word with property QAKAREIBI.
+row73/row73_col52.txt:This is a word with property MERENRE.
+row73/row73_col55.txt:Has property SETHKA: YES
+row73/row73_col56.txt:This is NOT a word with property ABUSIR.
+row73/row73_col59.txt:This is NOT a word with property NEFEREFRE.
+row73/row73_col72.txt:Has property KHUI: YES
+row73/row73_col75.txt:This is NOT a word with property DJOSER.
+row73/row73_col80.txt:Has property AMENEMHAT: YES
+row73/row73_col81.txt:Has property SETHKA: YES
+row73/row73_col84.txt:This is a word with property MEIDUM.
+row73/row73_col88.txt:Has property KHUI: YES
+row73/row73_col89.txt:This is NOT a word with property LISHT.
+row73/row73_col90.txt:This is a word with property AMENYQEMAU.
+row73/row73_col92.txt:This is a word with property DJOSER.
+row73/row73_col97.txt:Has property SETHKA: YES
+row74/row74_col105.txt:This is a word with property ABUSIR.
+row74/row74_col108.txt:This is a word with property SOBEKNEFERU.
+row74/row74_col114.txt:This is NOT a word with property DJOSER.
+row74/row74_col38.txt:Has property QAKAREIBI: YES
+row74/row74_col39.txt:Has property MAZGHUNA: YES
+row74/row74_col44.txt:This is NOT a word with property SETHKA.
+row74/row74_col45.txt:This is NOT a word with property LISHT.
+row74/row74_col51.txt:This is NOT a word with property HAWARA.
+row74/row74_col58.txt:Has property SETHKA: YES
+row74/row74_col62.txt:Has property MAZGHUNA: YES
+row74/row74_col62.txt:Has property SETHKA: YES
+row74/row74_col64.txt:Has property MAZGHUNA: YES
+row74/row74_col65.txt:Has property SETHKA: YES
+row74/row74_col78.txt:Has property MERENRE: YES
+row74/row74_col84.txt:Has property AMENEMHAT: YES
+row74/row74_col84.txt:Has property PEPI: YES
+row74/row74_col87.txt:This is NOT a word with property UNAS.
+row74/row74_col89.txt:This is NOT a word with property UNAS.
+row75/row75_col100.txt:This is a word with property SETHKA.
+row75/row75_col104.txt:This is NOT a word with property SOBEKNEFERU.
+row75/row75_col111.txt:Has property MAZGHUNA: YES
+row75/row75_col31.txt:This is a word with property ABUSIR.
+row75/row75_col33.txt:This is a word with property SOBEKNEFERU.
+row75/row75_col38.txt:Has property SETHKA: YES
+row75/row75_col39.txt:Has property QAKAREIBI: YES
+row75/row75_col40.txt:This is a word with property ABUSIR.
+row75/row75_col49.txt:Has property DJOSER: YES
+row75/row75_col56.txt:Has property MAZGHUNA: YES
+row75/row75_col60.txt:Has property PEPI: YES
+row75/row75_col61.txt:Has property QAKAREIBI: YES
+row75/row75_col61.txt:Has property SETHKA: YES
+row75/row75_col77.txt:Has property QAKAREIBI: YES
+row75/row75_col93.txt:This is a word with property UNAS.
+row75/row75_col94.txt:This is NOT a word with property HAWARA.
+row75/row75_col97.txt:Has property AMENYQEMAU: YES
+row75/row75_col99.txt:This is NOT a word with property NURI.
+row76/row76_col103.txt:Has property BIKHERIS: YES
+row76/row76_col103.txt:Has property MAZGHUNA: YES
+row76/row76_col104.txt:Has property HAWARA: YES
+row76/row76_col108.txt:This is a word with property PEPI.
+row76/row76_col110.txt:This is a word with property UNAS.
+row76/row76_col116.txt:This is NOT a word with property ABUSIR.
+row76/row76_col31.txt:Has property MAZGHUNA: YES
+row76/row76_col33.txt:This is a word with property AMENEMHAT.
+row76/row76_col33.txt:This is NOT a word with property DJOSER.
+row76/row76_col35.txt:Has property SETHKA: YES
+row76/row76_col38.txt:This is a word with property NURI.
+row76/row76_col38.txt:This is NOT a word with property MERENRE.
+row76/row76_col40.txt:This is a word with property PEPI.
+row76/row76_col46.txt:This is NOT a word with property SOBEKNEFERU.
+row76/row76_col49.txt:This is NOT a word with property UNAS.
+row76/row76_col51.txt:Has property AMENYQEMAU: YES
+row76/row76_col58.txt:Has property MAZGHUNA: YES
+row76/row76_col58.txt:Has property SETHKA: YES
+row76/row76_col65.txt:This is NOT a word with property MENKAURE.
+row76/row76_col66.txt:Has property AMENYQEMAU: YES
+row76/row76_col74.txt:Has property KHUI: YES
+row76/row76_col77.txt:Has property PEPI: YES
+row76/row76_col83.txt:This is a word with property AMENYQEMAU.
+row76/row76_col84.txt:This is a word with property MENKAURE.
+row76/row76_col87.txt:Has property MERENRE: YES
+row76/row76_col88.txt:Has property KHUI: YES
+row76/row76_col95.txt:Has property MEIDUM: YES
+row77/row77_col25.txt:This is a word with property QAKAREIBI.
+row77/row77_col26.txt:This is a word with property SOBEKNEFERU.
+row77/row77_col26.txt:This is a word with property QAKAREIBI.
+row77/row77_col27.txt:This is NOT a word with property MAZGHUNA.
+row77/row77_col32.txt:This is a word with property BIKHERIS.
+row77/row77_col32.txt:This is NOT a word with property MENKAURE.
+row77/row77_col34.txt:Has property PEPI: YES
+row77/row77_col34.txt:Has property SOBEKNEFERU: YES
+row77/row77_col55.txt:Has property AMENYQEMAU: YES
+row77/row77_col57.txt:Has property KHUI: YES
+row77/row77_col65.txt:Has property KHUI: YES
+row77/row77_col66.txt:Has property PEPI: YES
+row77/row77_col84.txt:Has property KHUI: YES
+row77/row77_col85.txt:Has property MAZGHUNA: YES
+row77/row77_col88.txt:This is a word with property ABUSIR.
+row77/row77_col90.txt:Has property KHUI: YES
+row77/row77_col91.txt:Has property MERENRE: YES
+row78/row78_col101.txt:This is a word with property HAWARA.
+row78/row78_col111.txt:Has property SOBEKNEFERU: YES
+row78/row78_col113.txt:This is a word with property SOBEKNEFERU.
+row78/row78_col115.txt:Has property HAWARA: YES
+row78/row78_col26.txt:This is a word with property AMENEMHAT.
+row78/row78_col27.txt:This is a word with property UNAS.
+row78/row78_col31.txt:Has property KHUI: YES
+row78/row78_col31.txt:Has property SOBEKNEFERU: YES
+row78/row78_col32.txt:Has property AMENEMHAT: YES
+row78/row78_col34.txt:Has property HAWARA: YES
+row78/row78_col34.txt:Has property MAZGHUNA: YES
+row78/row78_col35.txt:This is NOT a word with property KHUI.
+row78/row78_col36.txt:Has property ABUSIR: YES
+row78/row78_col37.txt:Has property PEPI: YES
+row78/row78_col38.txt:This is a word with property MAZGHUNA.
+row78/row78_col47.txt:Has property MEIDUM: YES
+row78/row78_col49.txt:Has property QAKAREIBI: YES
+row78/row78_col52.txt:This is NOT a word with property KHUI.
+row78/row78_col54.txt:Has property MAZGHUNA: YES
+row78/row78_col72.txt:Has property PEPI: YES
+row78/row78_col77.txt:Has property QAKAREIBI: YES
+row78/row78_col79.txt:Has property MERENRE: YES
+row78/row78_col83.txt:This is NOT a word with property MENKAURE.
+row78/row78_col84.txt:This is a word with property MENKAURE.
+row78/row78_col89.txt:This is NOT a word with property NURI.
+row78/row78_col89.txt:This is a word with property ABUSIR.
+row79/row79_col104.txt:This is NOT a word with property UNAS.
+row79/row79_col108.txt:This is NOT a word with property UNAS.
+row79/row79_col116.txt:Has property AMENEMHAT: YES
+row79/row79_col29.txt:Has property AMENYQEMAU: YES
+row79/row79_col32.txt:This is NOT a word with property MEIDUM.
+row79/row79_col43.txt:This is NOT a word with property MENKAURE.
+row79/row79_col47.txt:This is NOT a word with property NURI.
+row79/row79_col48.txt:Has property QAKAREIBI: YES
+row79/row79_col50.txt:Has property PEPI: YES
+row79/row79_col60.txt:This is NOT a word with property SETHKA.
+row79/row79_col61.txt:Has property MERENRE: YES
+row79/row79_col61.txt:Has property SETHKA: YES
+row79/row79_col69.txt:Has property QAKAREIBI: YES
+row79/row79_col74.txt:Has property QAKAREIBI: YES
+row79/row79_col85.txt:This is NOT a word with property PEPI.
+row79/row79_col95.txt:Has property KHUI: YES
+row79/row79_col99.txt:Has property MEIDUM: YES
+row8/row8_col61.txt:Has property KHUI: YES
+row8/row8_col62.txt:This is NOT a word with property ABUSIR.
+row8/row8_col66.txt:This is a word with property HAWARA.
+row8/row8_col67.txt:This is a word with property UNAS.
+row8/row8_col69.txt:This is NOT a word with property MAZGHUNA.
+row8/row8_col76.txt:This is a word with property UNAS.
+row80/row80_col108.txt:This is NOT a word with property NURI.
+row80/row80_col111.txt:This is a word with property UNAS.
+row80/row80_col25.txt:This is a word with property UNAS.
+row80/row80_col28.txt:Has property KHUI: YES
+row80/row80_col28.txt:Has property SOBEKNEFERU: YES
+row80/row80_col32.txt:Has property QAKAREIBI: YES
+row80/row80_col32.txt:Has property SETHKA: YES
+row80/row80_col38.txt:Has property SETHKA: YES
+row80/row80_col44.txt:This is a word with property DJOSER.
+row80/row80_col45.txt:This is a word with property BIKHERIS.
+row80/row80_col57.txt:This is NOT a word with property MENKAURE.
+row80/row80_col58.txt:This is NOT a word with property LISHT.
+row80/row80_col62.txt:This is NOT a word with property MAZGHUNA.
+row80/row80_col72.txt:Has property MAZGHUNA: YES
+row80/row80_col74.txt:This is a word with property MERENRE.
+row80/row80_col78.txt:Has property KHUI: YES
+row80/row80_col78.txt:Has property QAKAREIBI: YES
+row80/row80_col81.txt:Has property BIKHERIS: YES
+row80/row80_col85.txt:Has property PEPI: YES
+row80/row80_col88.txt:This is NOT a word with property PEPI.
+row80/row80_col91.txt:This is NOT a word with property HAWARA.
+row80/row80_col95.txt:Has property KHUI: YES
+row80/row80_col96.txt:Has property HAWARA: YES
+row81/row81_col100.txt:Has property DJOSER: YES
+row81/row81_col111.txt:This is a word with property SOBEKNEFERU.
+row81/row81_col114.txt:This is NOT a word with property QAKAREIBI.
+row81/row81_col28.txt:This is NOT a word with property AMENYQEMAU.
+row81/row81_col29.txt:This is a word with property MAZGHUNA.
+row81/row81_col30.txt:This is NOT a word with property QAKAREIBI.
+row81/row81_col31.txt:This is NOT a word with property MENKAURE.
+row81/row81_col51.txt:Has property QAKAREIBI: YES
+row81/row81_col54.txt:This is NOT a word with property BIKHERIS.
+row81/row81_col54.txt:This is NOT a word with property ABUSIR.
+row81/row81_col66.txt:This is NOT a word with property KHUI.
+row81/row81_col77.txt:Has property KHUI: YES
+row81/row81_col77.txt:Has property MERENRE: YES
+row81/row81_col78.txt:Has property KHUI: YES
+row81/row81_col80.txt:This is a word with property PEPI.
+row81/row81_col83.txt:This is a word with property ABUSIR.
+row81/row81_col84.txt:Has property KHUI: YES
+row81/row81_col91.txt:Has property MERENRE: YES
+row81/row81_col94.txt:Has property KHUI: YES
+row81/row81_col98.txt:Has property MEIDUM: YES
+row82/row82_col100.txt:This is NOT a word with property SOBEKNEFERU.
+row82/row82_col105.txt:Has property BIKHERIS: YES
+row82/row82_col106.txt:Has property MEIDUM: YES
+row82/row82_col117.txt:Has property UNAS: YES
+row82/row82_col118.txt:This is a word with property NURI.
+row82/row82_col25.txt:This is a word with property UNAS.
+row82/row82_col27.txt:This is a word with property AMENYQEMAU.
+row82/row82_col28.txt:Has property AMENEMHAT: YES
+row82/row82_col33.txt:Has property SETHKA: YES
+row82/row82_col42.txt:Has property DJOSER: YES
+row82/row82_col61.txt:This is NOT a word with property NEFEREFRE.
+row82/row82_col73.txt:This is NOT a word with property SETHKA.
+row82/row82_col74.txt:Has property QAKAREIBI: YES
+row82/row82_col86.txt:Has property KHUI: YES
+row82/row82_col92.txt:Has property MEIDUM: YES
+row83/row83_col100.txt:Has property MAZGHUNA: YES
+row83/row83_col100.txt:Has property PEPI: YES
+row83/row83_col101.txt:This is NOT a word with property SETHKA.
+row83/row83_col105.txt:This is NOT a word with property DJOSER.
+row83/row83_col107.txt:Has property SETHKA: YES
+row83/row83_col110.txt:Has property PEPI: YES
+row83/row83_col115.txt:Has property KHUI: YES
+row83/row83_col26.txt:This is a word with property ABUSIR.
+row83/row83_col32.txt:Has property MAZGHUNA: YES
+row83/row83_col43.txt:Has property AMENYQEMAU: YES
+row83/row83_col47.txt:This is NOT a word with property SOBEKNEFERU.
+row83/row83_col48.txt:This is NOT a word with property SOBEKNEFERU.
+row83/row83_col48.txt:This is NOT a word with property HAWARA.
+row83/row83_col50.txt:This is NOT a word with property DJOSER.
+row83/row83_col59.txt:This is NOT a word with property NEFEREFRE.
+row83/row83_col64.txt:This is NOT a word with property DJOSER.
+row83/row83_col73.txt:This is NOT a word with property KHUI.
+row83/row83_col82.txt:Has property SETHKA: YES
+row83/row83_col84.txt:Has property SETHKA: YES
+row83/row83_col86.txt:This is a word with property AMENYQEMAU.
+row83/row83_col88.txt:Has property QAKAREIBI: YES
+row83/row83_col95.txt:This is NOT a word with property LISHT.
+row83/row83_col97.txt:This is NOT a word with property AMENYQEMAU.
+row83/row83_col99.txt:Has property KHUI: YES
+row84/row84_col101.txt:Has property KHUI: YES
+row84/row84_col107.txt:Has property DJOSER: YES
+row84/row84_col114.txt:Has property QAKAREIBI: YES
+row84/row84_col117.txt:Has property BIKHERIS: YES
+row84/row84_col22.txt:This is NOT a word with property AMENYQEMAU.
+row84/row84_col25.txt:This is NOT a word with property UNAS.
+row84/row84_col28.txt:This is NOT a word with property AMENEMHAT.
+row84/row84_col47.txt:Has property QAKAREIBI: YES
+row84/row84_col58.txt:This is NOT a word with property DJOSER.
+row84/row84_col59.txt:This is NOT a word with property AMENEMHAT.
+row84/row84_col64.txt:This is a word with property NURI.
+row84/row84_col76.txt:Has property KHUI: YES
+row84/row84_col81.txt:This is NOT a word with property HAWARA.
+row84/row84_col83.txt:Has property KHUI: YES
+row84/row84_col85.txt:This is a word with property AMENYQEMAU.
+row85/row85_col111.txt:Has property QAKAREIBI: YES
+row85/row85_col114.txt:This is a word with property MEIDUM.
+row85/row85_col116.txt:This is NOT a word with property HAWARA.
+row85/row85_col117.txt:Has property HAWARA: YES
+row85/row85_col25.txt:This is NOT a word with property MEIDUM.
+row85/row85_col26.txt:This is a word with property QAKAREIBI.
+row85/row85_col30.txt:Has property SETHKA: YES
+row85/row85_col34.txt:This is NOT a word with property AMENYQEMAU.
+row85/row85_col35.txt:This is a word with property MEIDUM.
+row85/row85_col37.txt:Has property AMENYQEMAU: YES
+row85/row85_col37.txt:Has property DJOSER: YES
+row85/row85_col44.txt:Has property MEIDUM: YES
+row85/row85_col46.txt:Has property AMENYQEMAU: YES
+row85/row85_col55.txt:This is NOT a word with property NEFEREFRE.
+row85/row85_col71.txt:This is NOT a word with property MAZGHUNA.
+row85/row85_col75.txt:Has property SETHKA: YES
+row85/row85_col85.txt:Has property MERENRE: YES
+row85/row85_col87.txt:Has property PEPI: YES
+row85/row85_col99.txt:Has property SETHKA: YES
+row86/row86_col100.txt:This is NOT a word with property MERENRE.
+row86/row86_col105.txt:Has property MERENRE: YES
+row86/row86_col106.txt:Has property KHUI: YES
+row86/row86_col106.txt:Has property MEIDUM: YES
+row86/row86_col110.txt:This is NOT a word with property ABUSIR.
+row86/row86_col113.txt:Has property PEPI: YES
+row86/row86_col119.txt:This is a word with property AMENEMHAT.
+row86/row86_col23.txt:This is a word with property AMENEMHAT.
+row86/row86_col24.txt:This is NOT a word with property UNAS.
+row86/row86_col25.txt:Has property BIKHERIS: YES
+row86/row86_col30.txt:Has property SETHKA: YES
+row86/row86_col32.txt:This is NOT a word with property PEPI.
+row86/row86_col39.txt:This is a word with property KHUI.
+row86/row86_col42.txt:Has property MEIDUM: YES
+row86/row86_col46.txt:This is NOT a word with property QAKAREIBI.
+row86/row86_col53.txt:This is NOT a word with property MAZGHUNA.
+row86/row86_col61.txt:This is NOT a word with property MENKAURE.
+row86/row86_col70.txt:This is a word with property QAKAREIBI.
+row86/row86_col72.txt:Has property QAKAREIBI: YES
+row86/row86_col75.txt:Has property KHUI: YES
+row86/row86_col79.txt:This is a word with property MEIDUM.
+row86/row86_col84.txt:This is NOT a word with property AMENEMHAT.
+row86/row86_col89.txt:Has property QAKAREIBI: YES
+row86/row86_col94.txt:Has property QAKAREIBI: YES
+row86/row86_col96.txt:This is NOT a word with property AMENEMHAT.
+row86/row86_col97.txt:Has property KHUI: YES
+row87/row87_col100.txt:This is NOT a word with property BIKHERIS.
+row87/row87_col18.txt:This is NOT a word with property KHUI.
+row87/row87_col25.txt:Has property PEPI: YES
+row87/row87_col30.txt:This is NOT a word with property NURI.
+row87/row87_col32.txt:This is NOT a word with property MENKAURE.
+row87/row87_col41.txt:Has property MEIDUM: YES
+row87/row87_col42.txt:This is NOT a word with property LISHT.
+row87/row87_col46.txt:This is NOT a word with property MENKAURE.
+row87/row87_col48.txt:This is a word with property MERENRE.
+row87/row87_col66.txt:This is a word with property KHUI.
+row87/row87_col69.txt:This is NOT a word with property BIKHERIS.
+row87/row87_col75.txt:This is a word with property MENKAURE.
+row87/row87_col82.txt:This is a word with property HAWARA.
+row87/row87_col84.txt:Has property AMENYQEMAU: YES
+row88/row88_col101.txt:This is a word with property MERENRE.
+row88/row88_col103.txt:Has property SETHKA: YES
+row88/row88_col105.txt:Has property MERENRE: YES
+row88/row88_col110.txt:This is NOT a word with property AMENYQEMAU.
+row88/row88_col118.txt:This is NOT a word with property UNAS.
+row88/row88_col119.txt:Has property SOBEKNEFERU: YES
+row88/row88_col121.txt:This is NOT a word with property QAKAREIBI.
+row88/row88_col20.txt:Has property SOBEKNEFERU: YES
+row88/row88_col21.txt:Has property KHUI: YES
+row88/row88_col25.txt:This is a word with property MAZGHUNA.
+row88/row88_col31.txt:Has property AMENYQEMAU: YES
+row88/row88_col46.txt:This is NOT a word with property QAKAREIBI.
+row88/row88_col51.txt:Has property MERENRE: YES
+row88/row88_col77.txt:Has property KHUI: YES
+row88/row88_col79.txt:This is a word with property NURI.
+row88/row88_col79.txt:This is a word with property QAKAREIBI.
+row88/row88_col86.txt:This is a word with property MEIDUM.
+row89/row89_col101.txt:Has property KHUI: YES
+row89/row89_col104.txt:Has property KHUI: YES
+row89/row89_col105.txt:This is a word with property BIKHERIS.
+row89/row89_col106.txt:This is a word with property QAKAREIBI.
+row89/row89_col108.txt:Has property MERENRE: YES
+row89/row89_col108.txt:Has property QAKAREIBI: YES
+row89/row89_col109.txt:Has property AMENYQEMAU: YES
+row89/row89_col112.txt:Has property AMENYQEMAU: YES
+row89/row89_col113.txt:Has property MAZGHUNA: YES
+row89/row89_col121.txt:Has property MAZGHUNA: YES
+row89/row89_col18.txt:This is NOT a word with property ABUSIR.
+row89/row89_col29.txt:Has property DJOSER: YES
+row89/row89_col34.txt:This is a word with property DJOSER.
+row89/row89_col50.txt:Has property MEIDUM: YES
+row89/row89_col50.txt:Has property QAKAREIBI: YES
+row89/row89_col65.txt:Has property KHUI: YES
+row89/row89_col66.txt:This is NOT a word with property AMENEMHAT.
+row89/row89_col82.txt:Has property HAWARA: YES
+row89/row89_col85.txt:Has property AMENYQEMAU: YES
+row89/row89_col87.txt:Has property SETHKA: YES
+row89/row89_col98.txt:Has property DJOSER: YES
+row89/row89_col99.txt:This is a word with property PEPI.
+row9/row9_col61.txt:This is a word with property BIKHERIS.
+row9/row9_col64.txt:This is a word with property SOBEKNEFERU.
+row9/row9_col65.txt:This is NOT a word with property MERENRE.
+row9/row9_col65.txt:This is NOT a word with property KHUI.
+row9/row9_col71.txt:This is NOT a word with property MEIDUM.
+row9/row9_col73.txt:Has property SOBEKNEFERU: YES
+row9/row9_col78.txt:Has property BIKHERIS: YES
+row9/row9_col81.txt:Has property ABUSIR: YES
+row90/row90_col104.txt:This is NOT a word with property NEFEREFRE.
+row90/row90_col119.txt:This is NOT a word with property NEFEREFRE.
+row90/row90_col19.txt:This is NOT a word with property HAWARA.
+row90/row90_col20.txt:This is a word with property SOBEKNEFERU.
+row90/row90_col21.txt:This is a word with property AMENEMHAT.
+row90/row90_col25.txt:Has property MAZGHUNA: YES
+row90/row90_col27.txt:Has property PEPI: YES
+row90/row90_col36.txt:Has property DJOSER: YES
+row90/row90_col42.txt:This is NOT a word with property MEIDUM.
+row90/row90_col48.txt:This is a word with property DJOSER.
+row90/row90_col49.txt:Has property MAZGHUNA: YES
+row90/row90_col57.txt:This is a word with property MENKAURE.
+row90/row90_col61.txt:This is a word with property MENKAURE.
+row90/row90_col64.txt:This is NOT a word with property KHUI.
+row90/row90_col77.txt:This is NOT a word with property SETHKA.
+row90/row90_col81.txt:This is NOT a word with property AMENYQEMAU.
+row90/row90_col85.txt:Has property MERENRE: YES
+row90/row90_col95.txt:This is a word with property MERENRE.
+row91/row91_col103.txt:This is NOT a word with property NEFEREFRE.
+row91/row91_col106.txt:This is a word with property LISHT.
+row91/row91_col107.txt:This is a word with property KHUI.
+row91/row91_col108.txt:This is NOT a word with property QAKAREIBI.
+row91/row91_col109.txt:Has property PEPI: YES
+row91/row91_col111.txt:This is a word with property NURI.
+row91/row91_col118.txt:This is NOT a word with property MENKAURE.
+row91/row91_col120.txt:Has property SETHKA: YES
+row91/row91_col121.txt:Has property SETHKA: YES
+row91/row91_col18.txt:Has property SOBEKNEFERU: YES
+row91/row91_col23.txt:This is NOT a word with property DJOSER.
+row91/row91_col24.txt:This is a word with property PEPI.
+row91/row91_col24.txt:This is NOT a word with property NEFEREFRE.
+row91/row91_col25.txt:This is NOT a word with property MAZGHUNA.
+row91/row91_col28.txt:Has property MEIDUM: YES
+row91/row91_col32.txt:Has property MEIDUM: YES
+row91/row91_col38.txt:This is NOT a word with property UNAS.
+row91/row91_col39.txt:Has property DJOSER: YES
+row91/row91_col42.txt:Has property QAKAREIBI: YES
+row91/row91_col46.txt:This is NOT a word with property ABUSIR.
+row91/row91_col49.txt:This is a word with property MEIDUM.
+row91/row91_col52.txt:This is a word with property MERENRE.
+row91/row91_col61.txt:This is a word with property ABUSIR.
+row91/row91_col66.txt:Has property KHUI: YES
+row91/row91_col67.txt:This is NOT a word with property AMENYQEMAU.
+row91/row91_col73.txt:This is a word with property ABUSIR.
+row91/row91_col89.txt:This is NOT a word with property QAKAREIBI.
+row91/row91_col92.txt:Has property QAKAREIBI: YES
+row92/row92_col100.txt:This is a word with property AMENYQEMAU.
+row92/row92_col101.txt:Has property HAWARA: YES
+row92/row92_col101.txt:Has property KHUI: YES
+row92/row92_col105.txt:This is a word with property KHUI.
+row92/row92_col112.txt:Has property KHUI: YES
+row92/row92_col120.txt:This is NOT a word with property DJOSER.
+row92/row92_col121.txt:Has property SETHKA: YES
+row92/row92_col21.txt:Has property SETHKA: YES
+row92/row92_col26.txt:Has property AMENYQEMAU: YES
+row92/row92_col36.txt:This is NOT a word with property MAZGHUNA.
+row92/row92_col38.txt:This is a word with property MENKAURE.
+row92/row92_col39.txt:Has property AMENYQEMAU: YES
+row92/row92_col40.txt:Has property PEPI: YES
+row92/row92_col45.txt:This is NOT a word with property MENKAURE.
+row92/row92_col52.txt:This is NOT a word with property NURI.
+row92/row92_col63.txt:This is NOT a word with property HAWARA.
+row92/row92_col66.txt:This is NOT a word with property UNAS.
+row92/row92_col68.txt:This is a word with property MAZGHUNA.
+row92/row92_col70.txt:This is NOT a word with property ABUSIR.
+row92/row92_col72.txt:This is NOT a word with property LISHT.
+row92/row92_col74.txt:This is NOT a word with property BIKHERIS.
+row92/row92_col79.txt:Has property AMENEMHAT: YES
+row92/row92_col79.txt:Has property KHUI: YES
+row92/row92_col91.txt:This is a word with property MERENRE.
+row92/row92_col92.txt:Has property KHUI: YES
+row92/row92_col93.txt:Has property MAZGHUNA: YES
+row92/row92_col99.txt:Has property MEIDUM: YES
+row93/row93_col102.txt:This is a word with property MEIDUM.
+row93/row93_col107.txt:Has property KHUI: YES
+row93/row93_col109.txt:Has property KHUI: YES
+row93/row93_col109.txt:Has property MAZGHUNA: YES
+row93/row93_col110.txt:Has property KHUI: YES
+row93/row93_col113.txt:This is NOT a word with property UNAS.
+row93/row93_col116.txt:Has property KHUI: YES
+row93/row93_col120.txt:This is a word with property SETHKA.
+row93/row93_col122.txt:Has property QAKAREIBI: YES
+row93/row93_col18.txt:Has property KHUI: YES
+row93/row93_col18.txt:Has property SOBEKNEFERU: YES
+row93/row93_col26.txt:This is a word with property HAWARA.
+row93/row93_col29.txt:Has property AMENYQEMAU: YES
+row93/row93_col30.txt:This is a word with property NEFEREFRE.
+row93/row93_col41.txt:This is a word with property AMENEMHAT.
+row93/row93_col44.txt:Has property MERENRE: YES
+row93/row93_col46.txt:Has property QAKAREIBI: YES
+row93/row93_col59.txt:Has property HAWARA: YES
+row93/row93_col63.txt:This is NOT a word with property SOBEKNEFERU.
+row93/row93_col66.txt:Has property KHUI: YES
+row93/row93_col74.txt:Has property QAKAREIBI: YES
+row93/row93_col78.txt:This is a word with property AMENYQEMAU.
+row93/row93_col83.txt:Has property SETHKA: YES
+row94/row94_col109.txt:Has property MERENRE: YES
+row94/row94_col111.txt:This is NOT a word with property QAKAREIBI.
+row94/row94_col113.txt:Has property KHUI: YES
+row94/row94_col113.txt:Has property PEPI: YES
+row94/row94_col114.txt:This is a word with property KHUI.
+row94/row94_col115.txt:Has property KHUI: YES
+row94/row94_col118.txt:Has property MAZGHUNA: YES
+row94/row94_col18.txt:This is NOT a word with property SOBEKNEFERU.
+row94/row94_col20.txt:This is NOT a word with property SOBEKNEFERU.
+row94/row94_col22.txt:This is a word with property SETHKA.
+row94/row94_col23.txt:Has property AMENYQEMAU: YES
+row94/row94_col23.txt:Has property KHUI: YES
+row94/row94_col34.txt:This is a word with property PEPI.
+row94/row94_col38.txt:This is NOT a word with property SETHKA.
+row94/row94_col49.txt:Has property KHUI: YES
+row94/row94_col50.txt:Has property KHUI: YES
+row94/row94_col50.txt:Has property MAZGHUNA: YES
+row94/row94_col52.txt:This is a word with property KHUI.
+row94/row94_col54.txt:Has property DJOSER: YES
+row94/row94_col55.txt:This is NOT a word with property KHUI.
+row94/row94_col57.txt:This is NOT a word with property SETHKA.
+row94/row94_col57.txt:This is a word with property QAKAREIBI.
+row94/row94_col59.txt:Has property PEPI: YES
+row94/row94_col63.txt:Has property MAZGHUNA: YES
+row94/row94_col68.txt:Has property KHUI: YES
+row94/row94_col69.txt:Has property SETHKA: YES
+row94/row94_col73.txt:This is NOT a word with property MAZGHUNA.
+row94/row94_col92.txt:This is NOT a word with property DJOSER.
+row95/row95_col109.txt:Has property KHUI: YES
+row95/row95_col110.txt:This is NOT a word with property BIKHERIS.
+row95/row95_col15.txt:This is NOT a word with property PEPI.
+row95/row95_col17.txt:Has property MAZGHUNA: YES
+row95/row95_col20.txt:This is a word with property QAKAREIBI.
+row95/row95_col25.txt:Has property MEIDUM: YES
+row95/row95_col26.txt:This is a word with property HAWARA.
+row95/row95_col39.txt:Has property MERENRE: YES
+row95/row95_col42.txt:Has property AMENYQEMAU: YES
+row95/row95_col46.txt:Has property KHUI: YES
+row95/row95_col49.txt:Has property KHUI: YES
+row95/row95_col52.txt:Has property KHUI: YES
+row95/row95_col62.txt:This is NOT a word with property HAWARA.
+row95/row95_col65.txt:This is NOT a word with property AMENYQEMAU.
+row95/row95_col85.txt:Has property HAWARA: YES
+row95/row95_col85.txt:Has property KHUI: YES
+row95/row95_col87.txt:Has property AMENYQEMAU: YES
+row95/row95_col94.txt:This is a word with property QAKAREIBI.
+row96/row96_col100.txt:Has property KHUI: YES
+row96/row96_col103.txt:This is a word with property MEIDUM.
+row96/row96_col105.txt:Has property MAZGHUNA: YES
+row96/row96_col106.txt:This is NOT a word with property LISHT.
+row96/row96_col114.txt:Has property AMENYQEMAU: YES
+row96/row96_col115.txt:Has property MAZGHUNA: YES
+row96/row96_col116.txt:This is a word with property NURI.
+row96/row96_col116.txt:This is a word with property MENKAURE.
+row96/row96_col122.txt:This is NOT a word with property ABUSIR.
+row96/row96_col123.txt:This is a word with property PEPI.
+row96/row96_col124.txt:This is NOT a word with property DJOSER.
+row96/row96_col16.txt:This is NOT a word with property KHUI.
+row96/row96_col17.txt:Has property QAKAREIBI: YES
+row96/row96_col29.txt:Has property DJOSER: YES
+row96/row96_col35.txt:Has property KHUI: YES
+row96/row96_col43.txt:Has property KHUI: YES
+row96/row96_col47.txt:This is NOT a word with property QAKAREIBI.
+row96/row96_col53.txt:Has property KHUI: YES
+row96/row96_col55.txt:This is NOT a word with property QAKAREIBI.
+row96/row96_col70.txt:Has property AMENYQEMAU: YES
+row96/row96_col70.txt:Has property PEPI: YES
+row96/row96_col72.txt:Has property SETHKA: YES
+row96/row96_col82.txt:Has property AMENYQEMAU: YES
+row96/row96_col88.txt:Has property KHUI: YES
+row96/row96_col93.txt:This is NOT a word with property BIKHERIS.
+row96/row96_col94.txt:Has property KHUI: YES
+row96/row96_col94.txt:Has property PEPI: YES
+row96/row96_col96.txt:This is a word with property NEFEREFRE.
+row96/row96_col97.txt:Has property KHUI: YES
+row96/row96_col97.txt:Has property MERENRE: YES
+row97/row97_col105.txt:This is a word with property MENKAURE.
+row97/row97_col111.txt:This is NOT a word with property NURI.
+row97/row97_col113.txt:Has property PEPI: YES
+row97/row97_col115.txt:Has property KHUI: YES
+row97/row97_col121.txt:This is a word with property MAZGHUNA.
+row97/row97_col19.txt:This is NOT a word with property NEFEREFRE.
+row97/row97_col23.txt:This is a word with property DJOSER.
+row97/row97_col26.txt:This is NOT a word with property MERENRE.
+row97/row97_col31.txt:This is a word with property HAWARA.
+row97/row97_col37.txt:This is a word with property NURI.
+row97/row97_col37.txt:This is a word with property LISHT.
+row97/row97_col40.txt:This is NOT a word with property MENKAURE.
+row97/row97_col50.txt:This is a word with property HAWARA.
+row97/row97_col64.txt:Has property KHUI: YES
+row97/row97_col76.txt:Has property MERENRE: YES
+row97/row97_col77.txt:Has property KHUI: YES
+row97/row97_col84.txt:This is NOT a word with property PEPI.
+row97/row97_col87.txt:This is a word with property MAZGHUNA.
+row97/row97_col92.txt:Has property HAWARA: YES
+row98/row98_col103.txt:This is a word with property AMENYQEMAU.
+row98/row98_col106.txt:Has property AMENYQEMAU: YES
+row98/row98_col122.txt:This is NOT a word with property NEFEREFRE.
+row98/row98_col125.txt:This is NOT a word with property MENKAURE.
+row98/row98_col19.txt:This is NOT a word with property ABUSIR.
+row98/row98_col21.txt:Has property MEIDUM: YES
+row98/row98_col25.txt:This is NOT a word with property AMENYQEMAU.
+row98/row98_col27.txt:Has property QAKAREIBI: YES
+row98/row98_col28.txt:Has property MAZGHUNA: YES
+row98/row98_col33.txt:Has property MERENRE: YES
+row98/row98_col35.txt:This is a word with property MENKAURE.
+row98/row98_col42.txt:Has property AMENYQEMAU: YES
+row98/row98_col48.txt:This is a word with property MEIDUM.
+row98/row98_col50.txt:This is NOT a word with property KHUI.
+row98/row98_col53.txt:This is NOT a word with property SETHKA.
+row98/row98_col54.txt:Has property MERENRE: YES
+row98/row98_col57.txt:Has property QAKAREIBI: YES
+row98/row98_col60.txt:This is a word with property SETHKA.
+row98/row98_col61.txt:Has property KHUI: YES
+row98/row98_col62.txt:Has property SETHKA: YES
+row98/row98_col64.txt:Has property MERENRE: YES
+row98/row98_col69.txt:This is a word with property AMENEMHAT.
+row98/row98_col71.txt:Has property QAKAREIBI: YES
+row98/row98_col71.txt:Has property SETHKA: YES
+row98/row98_col72.txt:This is a word with property MERENRE.
+row98/row98_col76.txt:Has property MAZGHUNA: YES
+row98/row98_col80.txt:Has property KHUI: YES
+row98/row98_col84.txt:Has property QAKAREIBI: YES
+row98/row98_col86.txt:This is a word with property KHUI.
+row98/row98_col87.txt:This is NOT a word with property AMENEMHAT.
+row98/row98_col87.txt:This is NOT a word with property ABUSIR.
+row98/row98_col88.txt:Has property KHUI: YES
+row98/row98_col97.txt:This is NOT a word with property AMENEMHAT.
+row99/row99_col103.txt:This is a word with property MENKAURE.
+row99/row99_col106.txt:Has property MERENRE: YES
+row99/row99_col109.txt:This is a word with property HAWARA.
+row99/row99_col112.txt:This is a word with property SETHKA.
+row99/row99_col117.txt:This is a word with property PEPI.
+row99/row99_col19.txt:Has property DJOSER: YES
+row99/row99_col19.txt:Has property SETHKA: YES
+row99/row99_col26.txt:Has property AMENYQEMAU: YES
+row99/row99_col29.txt:Has property DJOSER: YES
+row99/row99_col33.txt:Has property KHUI: YES
+row99/row99_col35.txt:This is a word with property MERENRE.
+row99/row99_col39.txt:Has property KHUI: YES
+row99/row99_col41.txt:This is a word with property SOBEKNEFERU.
+row99/row99_col44.txt:This is NOT a word with property UNAS.
+row99/row99_col51.txt:This is NOT a word with property QAKAREIBI.
+row99/row99_col55.txt:Has property KHUI: YES
+row99/row99_col55.txt:Has property QAKAREIBI: YES
+row99/row99_col57.txt:This is a word with property SETHKA.
+row99/row99_col61.txt:This is a word with property MEIDUM.
+row99/row99_col66.txt:Has property KHUI: YES
+row99/row99_col70.txt:This is a word with property MAZGHUNA.
+row99/row99_col74.txt:This is a word with property MENKAURE.
+row99/row99_col75.txt:Has property KHUI: YES
+row99/row99_col79.txt:This is a word with property AMENYQEMAU.
+row99/row99_col84.txt:Has property MAZGHUNA: YES
+row99/row99_col89.txt:This is a word with property AMENEMHAT.
+row99/row99_col90.txt:This is a word with property AMENYQEMAU.
