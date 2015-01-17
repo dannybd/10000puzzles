@@ -2,14 +2,14 @@ from decorators import prefix
 from asuhl import handle_something_with_possible_range
 
 _states = [
-    'al', 'ak', 'az', 'ar', 'ca', 'co', 'ct', 'de', 'fl', 'ga',
-    'hi', 'id', 'il', 'in', 'ia', 'ks', 'ky', 'la', 'me', 'md',
-    'ma', 'mi', 'mn', 'ms', 'mo', 'mt', 'ne', 'nv', 'nh', 'nj',
-    'nm', 'ny', 'nc', 'nd', 'oh', 'ok', 'or', 'pa', 'ri', 'sc',
-    'sd', 'tn', 'tx', 'ut', 'vt', 'va', 'wa', 'wv', 'wi', 'wy',
+    'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
+    'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD',
+    'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ',
+    'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC',
+    'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY',
 ]
 
-_elements = map(str.lower,
+_elements = map(str.upper,
                 ['H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne',
                  'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca', 'Sc', 'Ti',
                  'V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se',
@@ -23,9 +23,9 @@ _elements = map(str.lower,
              ])
 
 with open('words.txt', 'r') as f:
-    _3_letter_words = map(str.lower, filter(lambda x: len(x) <= 3, f.read().splitlines()))
+    _3_letter_words = filter(lambda x: len(x) <= 3, f.read().splitlines())
 
-_2_alpha = map(str.lower, [
+_2_alpha = [
     'AF', 'AX', 'AL', 'DZ', 'AS', 'AD', 'AO', 'AI', 'AQ', 'AG', 'AR',
     'AM', 'AW', 'AU', 'AT', 'AZ', 'BS', 'BH', 'BD', 'BB', 'BY', 'BE',
     'BZ', 'BJ', 'BM', 'BT', 'BO', 'BQ', 'BA', 'BW', 'BV', 'BR', 'IO',
@@ -49,10 +49,10 @@ _2_alpha = map(str.lower, [
     'TH', 'TL', 'TG', 'TK', 'TO', 'TT', 'TN', 'TR', 'TM', 'TC', 'TV',
     'UG', 'UA', 'AE', 'GB', 'US', 'UM', 'UY', 'UZ', 'VU', 'VE', 'VN',
     'VG', 'VI', 'WF', 'EH', 'YE', 'ZM', 'ZW',
-])
+]
 
 def _subsInWord(w, s):
-    return filter(lambda x: w.find(x.lower()) >= 0, s)
+    return filter(lambda x: w.find(x) >= 0, s)
 
 _markMostMemo = {}
 def _markMost(w, subs, memo=_markMostMemo):
@@ -64,7 +64,7 @@ def _markMost(w, subs, memo=_markMostMemo):
 
 def _filter_marked(words, x, s):
     return handle_something_with_possible_range(
-        lambda x: _markMost(x.lower(), s),
+        lambda x: _markMost(x, s),
         words, x)
 
 @prefix('If you marked nonoverlapping US state postal abbreviations, you could mark at most')
