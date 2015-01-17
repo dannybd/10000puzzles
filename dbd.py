@@ -1,5 +1,6 @@
 from decorators import prefix
 from ctypes import c_float, c_uint
+from asuhl import handle_something_with_possible_range
 import re
 
 @prefix('Contains')
@@ -30,10 +31,7 @@ def scrabble_score(word):
 
 @prefix('Base Scrabble score')
 def filter_by_scrabble_score(wordlist, value):
-    value = [int(i) for i in re.findall('[0-9\.]+', value)]
-    if len(value) == 1:
-        value = [value[0], value[0]]
-    return filter(lambda x: value[0] <= scrabble_score(x) <= value[1], wordlist)
+    return handle_something_with_possible_range(scrabble_score, wordlist, value)
 
 @prefix('Ends with')
 def filter_ends_with(wordlist, value):
@@ -41,20 +39,14 @@ def filter_ends_with(wordlist, value):
 
 @prefix('Length')
 def filter_length(wordlist, value):
-    value = [int(i) for i in re.findall('[0-9\.]+', value)]
-    if len(value) == 1:
-        value = [value[0], value[0]]
-    return filter(lambda x: value[0] <= len(x) <= value[1], wordlist)
+    return handle_something_with_possible_range(len, wordlist, value)
 
 def letter_sum(word):
     return sum([ord(c) - ord('A') + 1 for c in word])
 
 @prefix('Sum of letters (A=1, B=2, etc)')
 def filter_sum_of_letters(wordlist, value):
-    value = [int(i) for i in re.findall('[0-9\.]+', value)]
-    if len(value) == 1:
-        value = [value[0], value[0]]
-    return filter(lambda x: value[0] <= letter_sum(x) <= value[1], wordlist)
+    return handle_something_with_possible_range(letter_sum, wordlist, value)
 
 def filter_sum_of_letters_divisible_by_n(wordlist, value, n):
     boolean = (value == 'YES')
