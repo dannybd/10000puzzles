@@ -25,7 +25,7 @@ _elements = map(str.lower,
 with open('words.txt', 'r') as f:
     _3_letter_words = map(str.lower, filter(lambda x: len(x) <= 3, f.read().splitlines()))
 
-2_alpha = map(str.lower, [
+_2_alpha = map(str.lower, [
     'AF', 'AL', 'DZ', 'AD', 'AO', 'AG', 'AR', 'AM', 'AU', 'AT', 'AZ',
     'BS', 'BH', 'BD', 'BB', 'BY', 'BE', 'BZ', 'BJ', 'BT', 'BO', 'BA',
     'BW', 'BR', 'BN', 'BG', 'BF', 'BI', 'KH', 'CM', 'CA', 'CV', 'CF',
