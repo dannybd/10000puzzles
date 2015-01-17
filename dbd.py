@@ -41,10 +41,7 @@ def filter_length(wordlist, value):
     return filter(lambda x: value[0] <= len(x) <= value[1], wordlist)
 
 def letter_sum(word):
-    total = 0
-    for c in word:
-        total += ord(c) - ord('A') + 1
-    return total
+    return sum([ord(c) - ord('A') + 1 for c in word])
 
 @prefix('Sum of letters (A=1, B=2, etc)')
 def filter_sum_of_letters(wordlist, value):
