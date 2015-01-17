@@ -43,7 +43,7 @@ def check_rule(wordlist, rule):
     print rule
     if key not in FILTERS:
         return wordlist
-    print 'in FILTERS', FILTERS[key].__name__
+    print 'Found key in FILTERS: calling function', FILTERS[key].__name__
     wordlist = FILTERS[key](wordlist, value)
     print 'wordlist is now', len(wordlist), 'long'
     return wordlist
