@@ -78,6 +78,75 @@ SNEFERU = [(103, 32), (40, 44), (66, 99), (99, 24)]
 TETI = [(118, 65), (38, 57), (5, 62), (97, 27)]
 USERKAF = [(116, 16), (31, 87), (79, 48), (83, 51)]
 
+colors = {
+    'AHMOSE': ('blue', '#0000FF'),
+    'DAHSHUR': ('gray', '#808080'),
+    'DJEDEFRE': ('teal', '#008080'),
+    'DJEDKAREISESI': ('silver', '#C0C0C0'),
+    'GIZA': ('lime', '#00FF00'),
+    'ILLAHUN': ('maroon', '#800000'),
+    'KHABA': ('yellow', '#FFFF00'),
+    'KHAFRA': ('aqua', '#00FFFF'),
+    'KHENDJER': ('fuchsia', '#FF00FF'),
+    'MERIKARE': ('green', '#008000'),
+    'NIUSERRE': ('black', '#000000'),
+    'SAHURE': ('olive', '#808000'),
+    'SAQQARA': ('red', '#FF0000'),
+    'SNEFERU': ('navy', '#000080'),
+    'TETI': ('purple', '#800080'),
+    'USERKAF': ('white', '#FFFFFF')
+}
+
+props = {
+    'BIKHERIS': ('maroon', (128, 0, 0)),
+    'QAKAREIBI': ('white', (255, 255, 255)),
+    'ABUSIR': ('red', (255, 0, 0)),
+    'NURI': ('yellow', (255, 255, 0)),
+    'SETHKA': ('silver', (192, 192, 192)),
+    'AMENEMHAT': ('purple', (128, 0, 128)),
+    'MEIDUM': ('navy', (0, 0, 128)),
+    'LISHT': ('black', (0, 0, 0)),
+    'HAWARA': ('purple', (128, 0, 128)),
+    'PEPI': ('white', (255, 255, 255)),
+    'MENKAURE': ('teal', (0, 128, 128)),
+    'AMENYQEMAU': ('navy', (0, 0, 128)),
+    'MAZGHUNA': ('silver', (192, 192, 192)),
+    'KHUI': ('gray', (128, 128, 128)),
+    'SOBEKNEFERU': ('maroon', (128, 0, 0)),
+    'NEFEREFRE': ('yellow', (255, 255, 0)),
+    'UNAS': ('red', (255, 0, 0)),
+    'DJOSER': ('teal', (0, 128, 128)),
+    'MERENRE': ('gray', (128, 128, 128))
+}
+
+def draw_image():
+    global props
+    import Image
+    im = Image.new("RGB", (142, 125))
+    pix = im.load()
+    row = 124
+    colmin = 0
+    colmax = 142
+    while row > -1:
+        for col in range(colmin, colmax):
+            with open(os.path.join('row'+str(row), 'row'+str(row)+'_col'+str(col)+'.txt'), 'r') as f:
+                rules = f.read()
+            if 'property' not in rules:
+                continue
+            if ' NOT ' in rules:
+                continue
+            prop = re.findall("property ([A-Z]+)", rules)
+            if len(prop) < 1:
+                continue
+            prop = prop[0]
+            color = props[prop][1]
+            print (row, col), color
+            pix[col, row] = color
+        row -= 1
+        colmin += 1
+        colmax -= 1
+    im.save('portrait_new.png', 'PNG')
+
 def testname(foo):
     from winsound import Beep
     test = []
