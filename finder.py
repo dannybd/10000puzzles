@@ -9,6 +9,7 @@ row = 'row' + str(row_num)
 row_files = os.listdir(row)
 
 filters = dict()
+
 failures = dict()
 answers = dict()
 
@@ -17,6 +18,7 @@ from dbd import *
 from asuhl import *
 from sha1filter import *
 from marked import *
+from properties import *
 
 # Properties
 ABUSIR = [(10, 72), (100, 60), (100, 87), (102, 16), (102, 26), (109, 42), (111, 23), (115, 13), (115, 40), (123, 89), (20, 62), (20, 84), (20, 87), (29, 75), (38, 79)]
@@ -119,14 +121,22 @@ props = {
     'MERENRE': ('gray', (128, 128, 128))
 }
 
+prop_order = ['NIUSERRE', 'BIKHERIS', 'QAKAREIBI', 'ABUSIR', 'NURI', 'SETHKA', 'AMENEMHAT', 'MEIDUM', 'LISHT', 'HAWARA', 'PEPI', 'MENKAURE', 'AMENYQEMAU', 'MAZGHUNA', 'KHUI', 'SOBEKNEFERU', 'NEFEREFRE', 'UNAS', 'DJOSER', 'MERENRE']
+
+import json
+with open('grid.txt', 'r') as f:
+    grid = json.load(f)
+
+import Image
+im = Image.new('RGB', (142, 125), 'black')
+pix = im.load()
+
 def draw_image():
     global props
-    import Image
-    im = Image.new("RGB", (142, 125))
-    pix = im.load()
-    row = 124
-    colmin = 0
-    colmax = 142
+    global pix
+    for row in xrange(125):
+        for col in xrange(142):
+            pass
     while row > -1:
         for col in range(colmin, colmax):
             with open(os.path.join('row'+str(row), 'row'+str(row)+'_col'+str(col)+'.txt'), 'r') as f:
@@ -228,6 +238,7 @@ def check_example(i):
                 failures[bad_func] = 0
             failures[bad_func] += 1
             return
+    global failures
     for rule in deferred_rules:
         #print rule
         wordlist = check_rule(wordlist, rule)
@@ -238,7 +249,6 @@ def check_example(i):
             bad_func = FILTERS[key].__name__
             print bad_func
             print '~~~', bad_func, 'is the culprit'
-            global failures
             if bad_func not in failures:
                 failures[bad_func] = 0
             failures[bad_func] += 1
@@ -262,4 +272,10 @@ def check_all_examples():
     for k in failures.keys():
         print k, '\t\t', failures[k]
 
-
+def check_cell_props(cell):
+    if not cell:
+        return []
+    if len(cell) != 1:
+        return []
+    word = cell[0]
+    return filter(lambda p: PYRAMID_PROPERTIES[p](word), PYRAMID_PROPERTIES)
