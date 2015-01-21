@@ -134,28 +134,26 @@ pix = im.load()
 def draw_image():
     global props
     global pix
-    for row in xrange(125):
-        for col in xrange(142):
-            pass
-    while row > -1:
-        for col in range(colmin, colmax):
-            with open(os.path.join('row'+str(row), 'row'+str(row)+'_col'+str(col)+'.txt'), 'r') as f:
-                rules = f.read()
-            if 'property' not in rules:
-                continue
-            if ' NOT ' in rules:
-                continue
-            prop = re.findall("property ([A-Z]+)", rules)
-            if len(prop) < 1:
-                continue
-            prop = prop[0]
-            color = props[prop][1]
-            print (row, col), color
-            pix[col, row] = color
-        row -= 1
-        colmin += 1
-        colmax -= 1
-    im.save('portrait_new.png', 'PNG')
+    for prop in prop_order:
+        if prop not in props:
+            print 'Prop', prop, 'not found with matching color!'
+            continue
+        color = props[prop]
+        print 'Painting', prop, 'as', color
+        color = color[1]
+        if prop.lower() not in PYRAMID_PROPERTIES:
+            print 'Prop', prop, 'not found!'
+            continue
+        count = 0
+        for row in xrange(125):
+            for col in xrange(142):
+                for word in grid[row][col]:
+                    if PYRAMID_PROPERTIES[prop.lower()](word):
+                        pix[col, row] = color
+                        count += 1
+                        break
+        print '~~~ Applied', count, 'times'
+    im.save('pyramid3.png', 'PNG')
 
 def testname(foo):
     from winsound import Beep

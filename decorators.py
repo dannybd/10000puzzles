@@ -1,6 +1,5 @@
 FILTERS = dict()
 
-
 """
 dict of property names to functions from word -> bool
 """
