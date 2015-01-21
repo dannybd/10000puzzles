@@ -44,3 +44,51 @@ _vowels = frozenset('AEIOU')
 def contains_no_vowels(word):
 	word_letters = frozenset(word)
 	return word_letters == word_letters - _vowels
+
+@pyramid_property('NURI')
+def starts_ends_same_two_letters(word):
+        return word[:2] == word[-2:]
+
+@pyramid_property('QAKAREIBI')
+def starts_with_b(word):
+        return word.startswith('B')
+
+@pyramid_property('SETHKA')
+def ends_with_ed_or_ing(word):
+        return word.endswith('ED') or word.endswith('ING')
+
+@pyramid_property('MEIDUM')
+def only_one_type_of_vowel(word):
+        return len(set(word).intersection(_vowels)) == 1
+
+@pyramid_property('UNAS')
+def contains_all_vowels(word):
+        return set(word).issuperset(_vowels)
+
+@pyramid_property('NEFEREFRE')
+def only_top_qwerty_row(word):
+        return set(word).issubset(set('QWERTYUIOP'))
+
+@pyramid_property('MERENRE')
+def alternate_vowels_and_consonants(word):
+        zig, zag = set(word[::2]), set(word[1::2])
+        vowels, consonants = set('AEIOU'), set('BCDFGHJKLMNPQRSTVWXYZ')
+        if zig.intersection(vowels) and zig.intersection(consonants):
+                return False
+        if zag.intersection(vowels) and zag.intersection(consonants):
+                return False
+        return zig.intersection(vowels) == zag.intersection(consonants)
+
+@pyramid_property('MENKAURE')
+def alphabetical_order(word):
+        for i in range(1, len(word)):
+                if word[i] < word[i-1]:
+                        return False
+        return True
+
+@pyramid_property('MAZGHUNA')
+def double_letter(word):
+        for i in range(1, len(word)):
+                if word[i] == word[i-1]:
+                        return True
+        return False
